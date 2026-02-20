@@ -3,36 +3,23 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+  "id": "did:web:bvassilo.github.io:Gaia-X-TFCC",
   "verificationMethod": [
     {
-      "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
+      "id": "did:web:bvassilo.github.io:Gaia-X-TFCC#key-1",
       "type": "JsonWebKey2020",
-      "controller": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+      "controller": "did:web:bvassilo.github.io:Gaia-X-TFCC",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
-        "x": "HgbxcxFB_vc5yeD_HWZvkHcRazvOwN3jlzTnW-V9Y4g"
-      }
-    },
-    {
-      "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-2",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
-      "publicKeyJwk": {
-        "kty": "RSA",
-        "n": "vbg9V-Lb5IFT6oHedu6RBwLtgOqZnaPbhpY85qJR_HUfPN3Sir4MKWDLVX_fAuE9Les-czhaivOdy9orPothS5hWj1YalCF4t8tHmKtrHXh2OJ5_tmJDna8zRI8UYSkPM3Qm9U-dgTrGy2K9r4G9b54saO3uNvIjWB-RbFKOMPkec2LqJjQGYr_MG0hgKrQblShe52juhsigj1U8nTdQFTreCxYBNlqk8rg34TBYtXKLN4bfmwYnidNKWRdwfTjrvEaN9tAwmbUvqbHbaemfpvS74IcQwRUNqHU6LpJUUco-VW9ij--drd4ksk3xPVAynTyYX0L6TBJgSYXseaDmmw",
-        "e": "AQAB",
-        "alg": "PS256"
+        "x": "pXco-NQGI-OgVZoR9ErkykIWP2KWtI7JmwkZFNHDBZ8"
       }
     }
   ],
   "assertionMethod": [
-    "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
-    "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-2"
+    "did:web:bvassilo.github.io:Gaia-X-TFCC#key-1"
   ],
   "authentication": [
-    "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
-    "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-2"
+    "did:web:bvassilo.github.io:Gaia-X-TFCC#key-1"
   ]
 }
