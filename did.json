@@ -21,5 +21,12 @@
   ],
   "authentication": [
     "did:web:LMS-UPATRAS.github.io:Gaia-X-TFCC#key-1"
+  ],
+  "service": [
+    {
+      "id": "did:web:LMS-UPATRAS.github.io:Gaia-X-TFCC#discovery",
+      "type": "GaiaXSelfDescription",
+      "serviceEndpoint": "https://LMS-UPATRAS.github.io/Gaia-X-TFCC/self-description.json"
+    }
   ]
 }

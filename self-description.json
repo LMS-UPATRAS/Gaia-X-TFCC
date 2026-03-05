@@ -21,7 +21,7 @@
       ],
       "id": "did:web:LMS-UPATRAS.github.io:Gaia-X-TFCC#legal-person",
       "issuer": "did:web:LMS-UPATRAS.github.io:Gaia-X-TFCC",
-      "issuanceDate": "2026-02-20T09:40:50Z",
+      "issuanceDate": "2026-03-05T16:08:16Z",
       "credentialSubject": {
         "id": "did:web:LMS-UPATRAS.github.io:Gaia-X-TFCC",
         "gx:legalName": "Teaching Factory Competence Center",
@@ -34,39 +34,18 @@
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-02-20T09:40:50Z",
+        "created": "2026-03-05T16:08:16Z",
         "verificationMethod": "did:web:LMS-UPATRAS.github.io:Gaia-X-TFCC#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..2UcYQ0G0IbwUeNU4EEAlT1moAlNHF3rStw1W0x5_SY74trJkr-vZnMYWTdkKBoJDSyIPKpwdpn5Z5Yo8_-RoBA"
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..OMwRgOZaVh-xVvQ37Tjy8Pe9tzrHM12FVEf906Q-C9YaBjskPOxMO8jSPRM5Vxgn_-sd1tDFwuQwFlMdGrPkDQ"
       }
-    },
-    {
-      "@context": [
-        "https://www.w3.org/2018/credentials/v1"
-      ],
-      "id": "https://LMS-UPATRAS.github.io/credentials/EL996725061",
-      "type": [
-        "VerifiableCredential",
-        "LegalRegistrationNumberCredential"
-      ],
-      "issuer": "did:web:delta-dao.com",
-      "issuanceDate": "2026-02-20T09:40:50Z",
-      "credentialSubject": {
-        "id": "did:web:LMS-UPATRAS.github.io:Gaia-X-TFCC",
-        "vatId": "EL996725061"
-      },
-      "proof": {
-        "type": "JsonWebSignature2020",
-        "jws": "eyJhbGciOiJQUzI1NiIsImlzcyI6ImRpZDp3ZWI6d3d3LmRlbHRhLWRhby5jb206bm90YXJ5OnYyIiwia2lkIjoiZGlkOndlYjp3d3cuZGVsdGEtZGFvLmNvbTpub3Rhcnk6djIjWDUwOS1KV0siLCJpYXQiOjE3NzE1ODA0NTA3OTYsImV4cCI6MTc3NjQ3MDM5OTAwMCwiY3R5IjoidmMrbGQiLCJ0eXAiOiJ2YytsZCtqd3QifQ.eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvbnMvY3JlZGVudGlhbHMvdjIiLCJodHRwczovL3czaWQub3JnL2dhaWEteC9kZXZlbG9wbWVudCMiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsImd4OlZhdElEIl0sImlkIjoiaHR0cHM6Ly9MTVMtVVBBVFJBUy5naXRodWIuaW8vY3JlZGVudGlhbHMvRUw5OTY3MjUwNjEiLCJuYW1lIjoiVkFUIElEIiwiZGVzY3JpcHRpb24iOiJWYWx1ZSBBZGRlZCBUYXggSWRlbnRpZmllciIsImlzc3VlciI6ImRpZDp3ZWI6d3d3LmRlbHRhLWRhby5jb206bm90YXJ5OnYyIiwidmFsaWRGcm9tIjoiMjAyNi0wMi0yMFQwOTo0MDo1MC43OTYrMDA6MDAiLCJ2YWxpZFVudGlsIjoiMjAyNi0wNC0xN1QyMzo1OTo1OS4wMDArMDA6MDAiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6Imh0dHBzOi8vTE1TLVVQQVRSQVMuZ2l0aHViLmlvL3N1YmplY3RzL0VMOTk2NzI1MDYxIiwiZ3g6dmF0SUQiOiJFTDk5NjcyNTA2MSIsImd4OmNvdW50cnlDb2RlIjoiR1IifSwiZXZpZGVuY2UiOnsiZ3g6ZXZpZGVuY2VPZiI6Imd4OlZhdElEIiwiZ3g6ZXZpZGVuY2VVUkwiOiJodHRwOi8vZWMuZXVyb3BhLmV1L3RheGF0aW9uX2N1c3RvbXMvdmllcy9zZXJ2aWNlcy9jaGVja1ZhdFNlcnZpY2UiLCJneDpleGVjdXRpb25EYXRlIjoiMjAyNi0wMi0yMFQwOTo0MDo1MC43OTYrMDA6MDAifX0.NX0yUwq-tkbu8OTVAxEBCdcQkKnihkIJ55gYEY2Q7g72HrJL8rP6XypA-gIcnrMxwGl9TRCxL9kcha8iShJvlT7tptsnl5wWIDQls_eud9FhAvhTiapXStCWJJGaTv39bVc-OYmQTQbToAdL4Si4RIhxkH5UZVEAzVL7XxjGHePDmbibfaVeocTFou4nuQ7FvjdC-B_nUg65ac-_6oDVPhIWiT-3T1jCSzG_yD8T3RCdWn5q4vrr-p44KuHS3Fn6NOnjbaFM3M_MRuWZDN6_5h6l3-QYv4oJgrvt9FFnS83BIROX3J3kQmrWwDN1ys1TrgSCBGm_JvdrSlgJvBkQeTvSlgnsucHIBZfGbAujSR5p8NxcXa18QTCO6kymrakgsR0PlOaoqzPer_FbyA1vGMnR8LF3o6KHVmBQ1_c51UiP9OhtcFdUY8hoAlEniUnzHODIIKumr5PospTgsv-4_3qCyfWmZceE3mK9E7sPFQ4yzSQ3eW2x8id6ASI4dUxJByJGJN5c2I8b2YGO37Ly8XCk31yuzZGo9VRxlSUppgW10_zMh1ymn1Lhr9x1r8AThUeGU4MHVKhOMusVI3OR4PCvdSOQzHSYEn_hTYqbjV69pb3EsW9wLzW6bXDTKlZgGRcG16VgJxWxXGCcI9e5iqZS5U2B_xxL-fMY8FR0gsE"
-      },
-      "jwt": "eyJhbGciOiJQUzI1NiIsImlzcyI6ImRpZDp3ZWI6d3d3LmRlbHRhLWRhby5jb206bm90YXJ5OnYyIiwia2lkIjoiZGlkOndlYjp3d3cuZGVsdGEtZGFvLmNvbTpub3Rhcnk6djIjWDUwOS1KV0siLCJpYXQiOjE3NzE1ODA0NTA3OTYsImV4cCI6MTc3NjQ3MDM5OTAwMCwiY3R5IjoidmMrbGQiLCJ0eXAiOiJ2YytsZCtqd3QifQ.eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvbnMvY3JlZGVudGlhbHMvdjIiLCJodHRwczovL3czaWQub3JnL2dhaWEteC9kZXZlbG9wbWVudCMiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsImd4OlZhdElEIl0sImlkIjoiaHR0cHM6Ly9MTVMtVVBBVFJBUy5naXRodWIuaW8vY3JlZGVudGlhbHMvRUw5OTY3MjUwNjEiLCJuYW1lIjoiVkFUIElEIiwiZGVzY3JpcHRpb24iOiJWYWx1ZSBBZGRlZCBUYXggSWRlbnRpZmllciIsImlzc3VlciI6ImRpZDp3ZWI6d3d3LmRlbHRhLWRhby5jb206bm90YXJ5OnYyIiwidmFsaWRGcm9tIjoiMjAyNi0wMi0yMFQwOTo0MDo1MC43OTYrMDA6MDAiLCJ2YWxpZFVudGlsIjoiMjAyNi0wNC0xN1QyMzo1OTo1OS4wMDArMDA6MDAiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6Imh0dHBzOi8vTE1TLVVQQVRSQVMuZ2l0aHViLmlvL3N1YmplY3RzL0VMOTk2NzI1MDYxIiwiZ3g6dmF0SUQiOiJFTDk5NjcyNTA2MSIsImd4OmNvdW50cnlDb2RlIjoiR1IifSwiZXZpZGVuY2UiOnsiZ3g6ZXZpZGVuY2VPZiI6Imd4OlZhdElEIiwiZ3g6ZXZpZGVuY2VVUkwiOiJodHRwOi8vZWMuZXVyb3BhLmV1L3RheGF0aW9uX2N1c3RvbXMvdmllcy9zZXJ2aWNlcy9jaGVja1ZhdFNlcnZpY2UiLCJneDpleGVjdXRpb25EYXRlIjoiMjAyNi0wMi0yMFQwOTo0MDo1MC43OTYrMDA6MDAifX0.NX0yUwq-tkbu8OTVAxEBCdcQkKnihkIJ55gYEY2Q7g72HrJL8rP6XypA-gIcnrMxwGl9TRCxL9kcha8iShJvlT7tptsnl5wWIDQls_eud9FhAvhTiapXStCWJJGaTv39bVc-OYmQTQbToAdL4Si4RIhxkH5UZVEAzVL7XxjGHePDmbibfaVeocTFou4nuQ7FvjdC-B_nUg65ac-_6oDVPhIWiT-3T1jCSzG_yD8T3RCdWn5q4vrr-p44KuHS3Fn6NOnjbaFM3M_MRuWZDN6_5h6l3-QYv4oJgrvt9FFnS83BIROX3J3kQmrWwDN1ys1TrgSCBGm_JvdrSlgJvBkQeTvSlgnsucHIBZfGbAujSR5p8NxcXa18QTCO6kymrakgsR0PlOaoqzPer_FbyA1vGMnR8LF3o6KHVmBQ1_c51UiP9OhtcFdUY8hoAlEniUnzHODIIKumr5PospTgsv-4_3qCyfWmZceE3mK9E7sPFQ4yzSQ3eW2x8id6ASI4dUxJByJGJN5c2I8b2YGO37Ly8XCk31yuzZGo9VRxlSUppgW10_zMh1ymn1Lhr9x1r8AThUeGU4MHVKhOMusVI3OR4PCvdSOQzHSYEn_hTYqbjV69pb3EsW9wLzW6bXDTKlZgGRcG16VgJxWxXGCcI9e5iqZS5U2B_xxL-fMY8FR0gsE"
     }
   ],
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-02-20T09:40:50Z",
+    "created": "2026-03-05T16:08:17Z",
     "verificationMethod": "did:web:LMS-UPATRAS.github.io:Gaia-X-TFCC#key-1",
     "proofPurpose": "authentication",
-    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..9HM9R-WayLU99Lhqu3cW7Ra6HN0S9jD6s0IjkQ17EAyPzaM4HkogsretIs5E6nCjqvPYsJunfD47O6_1yqufBQ"
+    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..giAfx30aiFIraiHb6jhb2-6RXd99EV2akkhHDSTYfvUiV1MX-IHduxDr0qdQJGfG8XmLQ537vO3qfmurBMHKBQ"
   }
 }
