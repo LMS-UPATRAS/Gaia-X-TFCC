@@ -5,7 +5,7 @@
   "type": [
     "VerifiablePresentation"
   ],
-  "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#presentation-db70540f",
+  "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#presentation-e3f7634d",
   "holder": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
   "verifiableCredential": [
     {
@@ -20,33 +20,37 @@
       ],
       "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#legal-person",
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
-      "issuanceDate": "2026-03-09T23:26:14Z",
+      "issuanceDate": "2026-03-09T23:30:20Z",
       "credentialSubject": {
         "type": "gx:LegalPerson",
         "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
         "gx:legalName": "Teaching Factory Competence Center",
         "gx:headquarterAddress": {
           "gx:countryCode": "EL",
+          "gx:countrySubdivisionCode": "EL-I",
           "gx:streetAddress": "\u039b\u0395\u03a9\u03a6\u039f\u03a1\u039f\u03a3 \u03a0\u0391\u03a0\u0391\u039d\u0394\u03a1\u0395\u039f\u03a5 \u039a\u0391\u0399 \u039c\u0399\u0391\u039f\u03a5\u039b\u0397 \u0395\u039e\u039f\u0394\u039f\u03a3 4 0",
           "gx:postalCode": "26500",
           "gx:locality": "\u03a0\u0391\u03a4\u03a1\u0391"
         },
         "gx:legalAddress": {
           "gx:countryCode": "EL",
+          "gx:countrySubdivisionCode": "EL-I",
           "gx:streetAddress": "\u039b\u0395\u03a9\u03a6\u039f\u03a1\u039f\u03a3 \u03a0\u0391\u03a0\u0391\u039d\u0394\u03a1\u0395\u039f\u03a5 \u039a\u0391\u0399 \u039c\u0399\u0391\u039f\u03a5\u039b\u0397 \u0395\u039e\u039f\u0394\u039f\u03a3 4 0",
           "gx:postalCode": "26500",
           "gx:locality": "\u03a0\u0391\u03a4\u03a1\u0391"
         },
-        "gx:legalRegistrationNumber": {
-          "gx:vatID": "EL996725061"
-        }
+        "gx:legalRegistrationNumber": [
+          {
+            "gx:vatID": "EL996725061"
+          }
+        ]
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-03-09T23:26:14Z",
+        "created": "2026-03-09T23:30:20Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..aL6znmhtuTiRQcV5Q1D4-ghp3berGpwFgQAPmjdAiyepx15xmxJrHLgkpguXVT2jKqd-iLihe1BpyaofbuzOAQ"
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..fwC6IhFoMuqH1-RP7Sv8uKhvYndYKHiRPdbpaN4u-PS0EXzCYWCg6SgiDxLNlhVspmloCWdwsTwnqx-6mhWvDw"
       }
     },
     {
@@ -60,7 +64,7 @@
       ],
       "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#gaiax-terms",
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
-      "issuanceDate": "2026-03-09T23:26:15Z",
+      "issuanceDate": "2026-03-09T23:30:21Z",
       "credentialSubject": {
         "type": "gx:GaiaXTermsAndConditions",
         "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#gaiax-terms",
@@ -68,10 +72,10 @@
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-03-09T23:26:15Z",
+        "created": "2026-03-09T23:30:21Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..-uzCw28hUZS5Lm5JOfxxrz1pLxy-8GUgZBByP64k6siCXT8_hiNBB3ba23fpbadflzV6IdF4J2kyUUEM3FOeDw"
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..nkBO9ORa-WfGJtBLmRXpb5AGuixRvEqz_GCP5-EYQHvSyoFjHuwgCTutFLLO0D5tqCz2V2efIqe14itI6gm6Aw"
       }
     },
     {
@@ -83,12 +87,12 @@
         "VerifiableCredential",
         "gx:ServiceOffering"
       ],
-      "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#service-232aadd2",
+      "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#service-88693473",
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
-      "issuanceDate": "2026-03-09T23:26:15Z",
+      "issuanceDate": "2026-03-09T23:30:21Z",
       "credentialSubject": {
         "type": "gx:ServiceOffering",
-        "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#service-232aadd2",
+        "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#service-88693473",
         "gx:providedBy": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
         "gx:name": "TFCC Connector",
         "gx:description": "Official TFCC Gaia-X Connector Node",
@@ -105,7 +109,7 @@
         },
         "gx:aggregationOf": [
           {
-            "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#resource-24c58983",
+            "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#resource-b6376158",
             "type": "gx:SoftwareResource",
             "gx:name": "TFCC Connector (Software)",
             "gx:description": "Official TFCC Gaia-X Connector Node",
@@ -116,7 +120,7 @@
             "gx:formatType": "application/vnd.docker.distribution.manifest.v2+json"
           },
           {
-            "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#node-6bfb4187",
+            "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#node-ea448ead",
             "type": "gx:Node",
             "gx:name": "TFCC Connector (Node)",
             "gx:description": "Infrastructure node for TFCC Connector",
@@ -127,18 +131,18 @@
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-03-09T23:26:15Z",
+        "created": "2026-03-09T23:30:21Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..Q23LyBvaFFO_h72LFveicYJIqxHrLVstT3tFnX40l36m1-HVePu_qHe0lqUP28YVD1RVR-9L4mKYFeAqBqjqBQ"
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..uWPcshYhpbCT7zDpIkhyAU-he00T4CpVhhUi8gGLU80HT8i76l5owvaFCry9rvG51_sRItoF2vWHUztT1XbDCw"
       }
     }
   ],
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-03-09T23:26:15Z",
+    "created": "2026-03-09T23:30:21Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
     "proofPurpose": "authentication",
-    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..tUpmX6Co9a15YX1jwJzasDHlmTzFSas5Ao0SpisFZxonshPTUTdrV8aGls5mHxg8KSWXyZVxIoFCHrRSna8kAQ"
+    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..viGw2gGxdGXuBWtvfghmEPRPmGFsw-tTcJHNSNUY8Hekq5hevrk3m2tOlyx0yDM1gw6XY_DJBnmrzLoorwmrDQ"
   }
 }
