@@ -3,12 +3,12 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:LMS-UPATRAS.github.io:Gaia-X-TFCC",
+  "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
   "verificationMethod": [
     {
-      "id": "did:web:LMS-UPATRAS.github.io:Gaia-X-TFCC#key-1",
+      "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
       "type": "JsonWebKey2020",
-      "controller": "did:web:LMS-UPATRAS.github.io:Gaia-X-TFCC",
+      "controller": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
@@ -17,21 +17,16 @@
     }
   ],
   "assertionMethod": [
-    "did:web:LMS-UPATRAS.github.io:Gaia-X-TFCC#key-1"
+    "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1"
   ],
   "authentication": [
-    "did:web:LMS-UPATRAS.github.io:Gaia-X-TFCC#key-1"
+    "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1"
   ],
   "service": [
     {
-      "id": "did:web:LMS-UPATRAS.github.io:Gaia-X-TFCC#discovery",
+      "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#discovery",
       "type": "GaiaXSelfDescription",
-      "serviceEndpoint": "https://LMS-UPATRAS.github.io/Gaia-X-TFCC/self-description.json"
-    },
-    {
-      "id": "did:web:LMS-UPATRAS.github.io:Gaia-X-TFCC#edc",
-      "type": "ConnectorService",
-      "serviceEndpoint": "http://host.docker.internal:8582/api/v1/dsp"
+      "serviceEndpoint": "https://lms-upatras.github.io/Gaia-X-TFCC/self-description.json"
     }
   ]
 }
