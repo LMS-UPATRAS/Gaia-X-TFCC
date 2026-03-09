@@ -1,0 +1,66 @@
+version: "3.8"
+
+services:
+  tfcc-vault:
+    image: hashicorp/vault:1.15
+    container_name: tfcc-vault
+    ports:
+      - "8202:8200"
+    environment:
+      VAULT_ADDR: "http://0.0.0.0:8200"
+      VAULT_DEV_ROOT_TOKEN_ID: "root"
+    cap_add:
+      - IPC_LOCK
+    networks:
+      - tfcc-network
+
+  tfcc-postgres:
+    image: postgres:15
+    container_name: tfcc-postgres
+    ports:
+      - "5434:5432"
+    environment:
+      POSTGRES_USER: edc
+      POSTGRES_PASSWORD: edc
+      POSTGRES_DB: edc
+    volumes:
+      - tfcc-postgres-data:/var/lib/postgresql/data
+    networks:
+      - tfcc-network
+
+  tfcc-control-plane:
+    image: tractusx/edc-control-plane:0.7.3
+    container_name: tfcc-control-plane
+    ports:
+      - "29191:8181" # API Port
+      - "29192:8182" # Management Port
+      - "29193:8183" # Protocol Port
+    environment:
+      EDC_IAM_ISSUER_ID: "did:web:lms-upatras.github.io:Gaia-X-TFCC"
+      EDC_IAM_JWKS_URL: "https://lms-upatras.github.io/Gaia-X-TFCC/did.json"
+      EDC_PARTICIPANT_ID: "BPNL000000001TFC"
+      EDC_VAULT_HASHICORP_URL: "http://tfcc-vault:8200"
+      EDC_VAULT_HASHICORP_TOKEN: "root"
+      web.http.port: 8181
+      web.http.path: /api
+      web.http.management.port: 8182
+      web.http.management.path: /management
+      web.http.protocol.port: 8183
+      web.http.protocol.path: /protocol
+      # Tractus-X specific: BDRS resolution
+      TX_EDC_BDRS_SERVER_URL: "http://bdrs:8000"
+    depends_on:
+      - tfcc-vault
+      - tfcc-postgres
+    networks:
+      - tfcc-network
+      - gaia-x-network # Join the shared network to find BDRS
+
+networks:
+  tfcc-network:
+    driver: bridge
+  gaia-x-network:
+    external: true
+
+volumes:
+  tfcc-postgres-data:

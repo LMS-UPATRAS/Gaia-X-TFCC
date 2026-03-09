@@ -27,6 +27,11 @@
       "id": "did:web:LMS-UPATRAS.github.io:Gaia-X-TFCC#discovery",
       "type": "GaiaXSelfDescription",
       "serviceEndpoint": "https://LMS-UPATRAS.github.io/Gaia-X-TFCC/self-description.json"
+    },
+    {
+      "id": "did:web:LMS-UPATRAS.github.io:Gaia-X-TFCC#edc",
+      "type": "ConnectorService",
+      "serviceEndpoint": "http://host.docker.internal:8582/api/v1/dsp"
     }
   ]
 }
