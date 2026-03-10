@@ -5,7 +5,7 @@
   "type": [
     "VerifiablePresentation"
   ],
-  "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#presentation-c2374b07",
+  "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#presentation-66c95edf",
   "holder": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
   "verifiableCredential": [
     {
@@ -20,9 +20,12 @@
       ],
       "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
-      "issuanceDate": "2026-03-10T11:07:17Z",
+      "issuanceDate": "2026-03-10T11:08:35Z",
       "credentialSubject": {
-        "type": "gx:LegalPerson",
+        "type": [
+          "gx:LegalPerson",
+          "gx:LegalParticipant"
+        ],
         "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
         "gx:legalName": "Teaching Factory Competence Center",
         "gx:headquarterAddress": {
@@ -49,10 +52,10 @@
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-03-10T11:07:17Z",
+        "created": "2026-03-10T11:08:35Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..J85stYxRd-Cg6ucu_92Sccwq6f7-JTuG_X3fzPO9VdUiZFwOA61atMBp-WTayj9v-OhWIVje61_c8SstfAOhAQ"
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..gVaoRZqCv84TuN-gffu7d5wno1OjllWcEd64_TxQa8JWf4VyyEzysTFgO7J8gyABDbZmhYlI_w4zpFfXG9MHAQ"
       }
     },
     {
@@ -66,18 +69,20 @@
       ],
       "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#gaiax-terms",
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
-      "issuanceDate": "2026-03-10T11:07:20Z",
+      "issuanceDate": "2026-03-10T11:08:36Z",
       "credentialSubject": {
-        "type": "gx:GaiaXTermsAndConditions",
+        "type": [
+          "gx:GaiaXTermsAndConditions"
+        ],
         "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#gaiax-terms",
         "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows: ... (Acceptance of Trust Framework 24.11)"
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-03-10T11:07:20Z",
+        "created": "2026-03-10T11:08:36Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..vHzv8aLcZr2k0AAnaY4Us7KIgTuAAKQ2JJb1qn5vstgkV_QMa8ABAmwHVMZMf3LUOd65YxQhAWFSImoAo9R-AQ"
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..irYtjbxhcnvnEfW8NL6crNEjf8ATVb2fk3Z8Lw2C8KpO1Ol_VCptm93QEvecXGIxG2ZaV4atuHzpYbqll58dBw"
       }
     },
     {
@@ -89,12 +94,14 @@
         "VerifiableCredential",
         "gx:ServiceOffering"
       ],
-      "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#service-a4961b5b",
+      "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#service-89616235",
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
-      "issuanceDate": "2026-03-10T11:07:20Z",
+      "issuanceDate": "2026-03-10T11:08:36Z",
       "credentialSubject": {
-        "type": "gx:ServiceOffering",
-        "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#service-a4961b5b",
+        "type": [
+          "gx:ServiceOffering"
+        ],
+        "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#service-89616235",
         "gx:providedBy": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
         "gx:name": "TFCC Connector",
         "gx:description": "Official TFCC Gaia-X Connector Node",
@@ -111,8 +118,10 @@
         },
         "gx:aggregationOf": [
           {
-            "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#resource-fd57a679",
-            "type": "gx:SoftwareResource",
+            "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#resource-0fd191a8",
+            "type": [
+              "gx:SoftwareResource"
+            ],
             "gx:name": "TFCC Connector (Software)",
             "gx:description": "Official TFCC Gaia-X Connector Node",
             "gx:producedBy": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
@@ -122,8 +131,10 @@
             "gx:formatType": "application/vnd.docker.distribution.manifest.v2+json"
           },
           {
-            "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#node-5972b551",
-            "type": "gx:Node",
+            "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#node-1ce9aac7",
+            "type": [
+              "gx:Node"
+            ],
             "gx:name": "TFCC Connector (Node)",
             "gx:description": "Infrastructure node for TFCC Connector",
             "gx:providedBy": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
@@ -133,18 +144,18 @@
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-03-10T11:07:20Z",
+        "created": "2026-03-10T11:08:36Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..hjEScj4KT8BCn-NqsnNtSP3asAwbUWXlGCurSxhBrS_EkMdR280SkCbwrPBdj9tkZR9_XVRY81SFbR5wg5EiCQ"
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..zfwe5OfA-QnNOJK9Ggxis69Mwp1No4wn2J0rAa7eMCiuIM9pzwpq7h4U89UifxmciaxrwzZhT6QukIEvYEoYDQ"
       }
     }
   ],
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-03-10T11:07:20Z",
+    "created": "2026-03-10T11:08:36Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
     "proofPurpose": "authentication",
-    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..jflBuZjQFB4ZSfyljOJ-OfOAany5iH2zDPylpfQPnKaNiL2065LtmQHPOwnKGJl67801P_sRO-djMRTp7qlwCQ"
+    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..dl7DMy-2skFCXUIGX1t_9lvt3IWLA3kMnY_fVPqMBKRWr10Iuzci5kBmXqKVDD4VvoKSFh8QFPlLvwT668hsCw"
   }
 }
