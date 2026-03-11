@@ -1,0 +1,129 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "type": [
+    "VerifiablePresentation"
+  ],
+  "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#self-description",
+  "holder": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/gaia-x/gaia-x-24.11.jsonld"
+      ],
+      "type": [
+        "VerifiableCredential",
+        "gx:LegalParticipant"
+      ],
+      "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+      "issuer": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+      "issuanceDate": "2026-03-11T09:16:05Z",
+      "credentialSubject": {
+        "type": "gx:LegalParticipant",
+        "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+        "gx:name": "Teaching Factory Competence Center",
+        "gx:headquartersAddress": {
+          "gx:countrySubdivisionCode": "GR-G"
+        },
+        "gx:legalAddress": {
+          "gx:countrySubdivisionCode": "GR-G"
+        },
+        "gx:registrationNumber": [
+          {
+            "type": "gx:VatID",
+            "gx:vatID": "EL996725061"
+          }
+        ]
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-03-11T09:16:05Z",
+        "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
+        "proofPurpose": "assertionMethod",
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..jHxXyr3hLmJJetfjw7SOfMuPp0_ESxXjnzMHlPwpd0ybO3WHdyQlwBR2iBEnjQMv2OwSN44SOHs0YnngDJsiBA"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/gaia-x/gaia-x-24.11.jsonld"
+      ],
+      "type": [
+        "VerifiableCredential",
+        "gx:GaiaXTermsAndConditions"
+      ],
+      "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#gaiax-terms",
+      "issuer": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+      "issuanceDate": "2026-03-11T09:16:05Z",
+      "credentialSubject": {
+        "type": "gx:GaiaXTermsAndConditions",
+        "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#gaiax-terms",
+        "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows: ... (Acceptance of Trust Framework 24.11)"
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-03-11T09:16:05Z",
+        "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
+        "proofPurpose": "assertionMethod",
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..T8o9oR5a2i8YS9Mj-H4y1bltNALV0sCQtToKimaYOV4ARisvqJnBFlTpD9dCz2Zirea3EFZLhgN9ojczL80vCQ"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/gaia-x/gaia-x-24.11.jsonld"
+      ],
+      "type": [
+        "VerifiableCredential",
+        "gx:ServiceOffering"
+      ],
+      "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#service-offering",
+      "issuer": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+      "issuanceDate": "2026-03-11T09:16:05Z",
+      "credentialSubject": {
+        "type": "gx:ServiceOffering",
+        "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#service-offering",
+        "gx:providedBy": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+        "gx:name": "TFCC Connector",
+        "gx:description": "Official TFCC Gaia-X Connector Node",
+        "gx:termsAndConditions": [
+          {
+            "gx:URL": "did:web:lms-upatras.github.io:Gaia-X-TFCC#gaiax-terms",
+            "gx:hash": "placeholder-hash-of-gaiax-terms"
+          }
+        ],
+        "gx:dataAccountExport": {
+          "gx:requestType": "email",
+          "gx:accessType": "digital",
+          "gx:formatType": "application/json"
+        },
+        "gx:aggregationOf": [
+          {
+            "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#node-1",
+            "type": "gx:Node",
+            "gx:name": "TFCC Connector (Node)",
+            "gx:providedBy": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+            "gx:endpoint": "http://host.docker.internal:8582/api/v1/dsp"
+          }
+        ]
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-03-11T09:16:05Z",
+        "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
+        "proofPurpose": "assertionMethod",
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..S93aMtoNFcOmS6FMYlQbTK9Ygmq0gdIowf8XK-Yy_zxKoC-8ESxGVrnq-oeoAuLyLECYstbxW91q_G9ZNEAcBA"
+      }
+    }
+  ],
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2026-03-11T09:16:05Z",
+    "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
+    "proofPurpose": "authentication",
+    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..vaSf3rgWhbrU-GNxmzO4RdNfPVG1JFeCJrpeAk87ORp5y0Yn247RVssKs9WkRzxByV2Pedgbnv_A7anWBR-DDg"
+  }
+}
