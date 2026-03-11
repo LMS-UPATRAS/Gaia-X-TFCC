@@ -1,0 +1,57 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1"
+  ],
+  "type": [
+    "VerifiablePresentation"
+  ],
+  "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#compliance-vp",
+  "holder": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/gaia-x/development#"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+      "issuer": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+      "issuanceDate": "2026-03-11T14:59:19Z",
+      "credentialSubject": {
+        "type": "gx:LegalParticipant",
+        "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+        "gx:name": "Teaching Factory Competence Center",
+        "gx:headquarterAddress": {
+          "gx:countrySubdivisionCode": "GR-G"
+        },
+        "gx:legalAddress": {
+          "gx:countrySubdivisionCode": "GR-G"
+        },
+        "gx:legalRegistrationNumber": {
+          "gx:vatID": "EL996725061"
+        }
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-03-11T14:59:19Z",
+        "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
+        "proofPurpose": "assertionMethod",
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..tbBMtWUpuuhF9Y7hMuC7FO14Q4LDtXO9p7p0OP4a_DzsVBdGkXVjO-4zXKUiKhgO_iOjYnWWg3oTHe91HXf-DA"
+      }
+    },
+    {
+      "@context": "https://www.w3.org/ns/credentials/v2",
+      "id": "data:application/vc+jwt,eyJhbGciOiJQUzI1NiIsImlzcyI6ImRpZDp3ZWI6d3d3LmRlbHRhLWRhby5jb206bm90YXJ5OnYyIiwia2lkIjoiZGlkOndlYjp3d3cuZGVsdGEtZGFvLmNvbTpub3Rhcnk6djIjWDUwOS1KV0siLCJpYXQiOjE3NzMyNDExNTkyMDAsImV4cCI6MTc3NjQ3MDM5OTAwMCwiY3R5IjoidmMrbGQiLCJ0eXAiOiJ2YytsZCtqd3QifQ.eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvbnMvY3JlZGVudGlhbHMvdjIiLCJodHRwczovL3czaWQub3JnL2dhaWEteC9kZXZlbG9wbWVudCMiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsImd4OlZhdElEIl0sImlkIjoiaHR0cHM6Ly9sbXMtdXBhdHJhcy5naXRodWIuaW8vR2FpYS1YLVRGQ0MvY3JlZGVudGlhbHMvcmVnaXN0cmF0aW9uLW51bWJlciIsIm5hbWUiOiJWQVQgSUQiLCJkZXNjcmlwdGlvbiI6IlZhbHVlIEFkZGVkIFRheCBJZGVudGlmaWVyIiwiaXNzdWVyIjoiZGlkOndlYjp3d3cuZGVsdGEtZGFvLmNvbTpub3Rhcnk6djIiLCJ2YWxpZEZyb20iOiIyMDI2LTAzLTExVDE0OjU5OjE5LjIwMCswMDowMCIsInZhbGlkVW50aWwiOiIyMDI2LTA0LTE3VDIzOjU5OjU5LjAwMCswMDowMCIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOndlYjpsbXMtdXBhdHJhcy5naXRodWIuaW86R2FpYS1YLVRGQ0MiLCJneDp2YXRJRCI6IkVMOTk2NzI1MDYxIiwiZ3g6Y291bnRyeUNvZGUiOiJHUiJ9LCJldmlkZW5jZSI6eyJneDpldmlkZW5jZU9mIjoiZ3g6VmF0SUQiLCJneDpldmlkZW5jZVVSTCI6Imh0dHA6Ly9lYy5ldXJvcGEuZXUvdGF4YXRpb25fY3VzdG9tcy92aWVzL3NlcnZpY2VzL2NoZWNrVmF0U2VydmljZSIsImd4OmV4ZWN1dGlvbkRhdGUiOiIyMDI2LTAzLTExVDE0OjU5OjE5LjE5OSswMDowMCJ9fQ.NQuQJFpZt-1PMYB_GQx9F1ZvgC54zjbBY11-1OQ3Xb-ue9MnUNQkRsdEo1MTEo2T862lDNAGC1YuFyAJIK9oslfIIj7xGAPHJsy2hXixNrIoLWb6TOBE4stKywk2af_gdLBrXWXpMmEKCkKDcNrDeWIHdW5bjeyEoOfFEjXsc05c7IdWs004JUqUyTo5DA-RdCj_18LBNB1k8mFIR-keG6R1cJjQEshO8XfpmdDG5sPgKXS10fOKAiFNCSf-qKY80BJQ2U-91BukezrrKiOHOI9CsjEeSdZf1ZdWrO9GTT_ZZHu1kKHtfd8CarYrteifexQVcklaN6wPgwf5NsdTpRsALgEen6uezMJgOvUzDG9A2Ud-jKRYblb8aVFMplURK6vvgZSQyQ4sA1k3ey-HRM-NaHlzNe6Ink-hUnZmOXckTg5ewvw6fozlx6_KH7_SwydqoP6gnRT3ydf87--adgQjRCF7Yv2eXo1NT1GHuwnPuGXlt_9b97lw46U_lpyOC54WVgE2-R1eCYl7Y5_9LcpfPKyZbixh0iQPSDToMChde4zkmR3J8AsUA1fRY2-b01IyD9e7_-HTCGmwVfobljT678uo_D64707r5Z_hKbp-7xbyVnsQGHYu_ckFft3AImFd6C37y11Yh-YBGcMIYNvh0VSrypxEOEqkTCJQh28",
+      "type": "EnvelopedVerifiableCredential"
+    }
+  ],
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2026-03-11T14:59:19Z",
+    "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
+    "proofPurpose": "authentication",
+    "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..OqynGOYa4eDO2mCVSWNotuUwyKVTIjt7H5iAjPI1zBZMjOAC-0cfxGB7gvlOEuDiH6478Fq2h3nFL5TUuLrnCA"
+  }
+}
