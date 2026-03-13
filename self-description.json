@@ -10,7 +10,7 @@
   "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
   "type": "VerifiableCredential",
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
-  "issuanceDate": "2026-03-13T08:46:09Z",
+  "issuanceDate": "2026-03-13T11:18:24Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
     "type": "gx:LegalPerson",
@@ -18,19 +18,21 @@
     "gx:legalRegistrationNumber": "EL996725061",
     "gx:registrationNumber": "EL996725061",
     "gx:headquarterAddress": {
-      "type": "vcard:Address",
-      "vcard:country-name": "GR"
+      "type": "gx:Address",
+      "gx:countryCode": "GR",
+      "gx:region": "EL63"
     },
     "gx:legalAddress": {
-      "type": "vcard:Address",
-      "vcard:country-name": "GR"
+      "type": "gx:Address",
+      "gx:countryCode": "GR",
+      "gx:region": "EL63"
     }
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-03-13T08:46:09Z",
+    "created": "2026-03-13T11:18:24Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJFZERTQSIsInR5cCI6Impvc2UiLCJraWQiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtVEZDQyNrZXktMSJ9..cSqBL_llIIt7vnWNn4WU0Y0iDnrhsWfG6HU0sTNZ78y2-UGNTu18dAmxotnsGkie7fPsMStDxl1nXWthK8MoAw"
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Pq5xBmNH1BVB9q051Pu_sGf_zBICRMYldjgjQvGo0U5tHcP4a20X3u3_cw-KhxDFX03j09TxcwT2dXoyOoB0DA"
   }
 }
