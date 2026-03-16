@@ -10,7 +10,7 @@
   "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
   "type": "VerifiableCredential",
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
-  "issuanceDate": "2026-03-16T14:34:12Z",
+  "issuanceDate": "2026-03-16T14:36:33Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
     "type": "gx:LegalPerson",
@@ -31,9 +31,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-03-16T14:34:12Z",
+    "created": "2026-03-16T14:36:33Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1URkNDI2tleS0xIn0..FXiY7t9IBer3P9VxFiLnWEOEmLp5TapS4Wsj955CIaAKlYbMqjoKKN7vAQREp_2GLcWGzk4_8xBYbo28K2OyBA"
+    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1URkNDI2tleS0xIn0..N5oiXMgLSWtQ2B9-_1ruhm53D7PukMvOT8ape_vdwuALMHhwHEyFKQtR-Ia5XsLNxVswLCLqk98I8UtPX9EpVO7XkggflkOCf0dtkjyb2JxL1R6AutAaggiHTEFuKeE57Zu8TwOLrHnhDCk8_lFuv-WDFjWF25lJeD1UzstFoPyCaMb593oHTlzHsaUlMpaaqk878F5my3RFAlPZgqHj__6q_r0txNOceS8AL4KIxDeMJ6t02xsG0SdzZ_S-AKIsq5iZFHkbT4QoqJvQYdT2YfoQimBoRUK1j_QjM7Pdp-volOWFhApBsh2ohYdzvpJkH320pFBlLfoYA4Os9Q8QQNA8rbdQZZZdOnH3BqE0VNGS1l2pxHMc4dOWZrNgEnq4rfrJCSe-ZbDnXmNy7CgBi2doaw1tEPP0uvncfp_qvxxfLIlxMcYvhQ_yBD5eyl4kyupdovlr7zYeU75FFNBNJojMPcOvaLaO1ms9_NngwpD6kPrMW7MWxpKL0QpC3S2Jhol2X5r9QWnhO4XyfotrAEI-bbBOzENfI9ydifq9POL7dI_gQs8yvshfrPkqp0wTzucE9Sz-voyittRmX_Wv3Wlq7syPJTgND8j_bvKdx9ZpPdDKwyNj7HgOoliBIMY5UjIFkM3eWS-0xxR82XVtFzHEI8-DXYnKxEsU22efoOQ"
   }
 }
