@@ -1,2 +1,4 @@
 private-key.pem
 *.pem
+
+private_key_details.txt
