@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/gaia-x/development#"
+  ],
+  "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#terms-and-conditions",
+  "type": "VerifiableCredential",
+  "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+  "issuanceDate": "2026-03-31T10:16:05Z",
+  "credentialSubject": {
+    "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+    "gx:termsAndConditions": {
+      "gx:content": "https://gaia-x.eu/wp-content/uploads/2024/01/Gaia-X-Policy-Rules-and-Labelling-Criteria-v22.10-Selection.pdf",
+      "gx:hash": "70c1d71d3744654522646c59d99723223078a635676793a6e927cc1194fd6a10"
+    }
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2026-03-31T10:16:05Z",
+    "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..ZcK0LfLMIwnWIrFxeBPckpeuDmjvkq7sQk9x_DYcWkSAldPu7rEFnCmHIc3X9QD4QaFjwXeuPIc_eq9MkIAUOlwvfmwLPuwxJnuSQI8QKhMh3HNpe0dg4K3LEX2hrua_DrwqJiFUwNbEEugB9ipfux2aKEa9SF4cPLp_X2FFcKzXlPsEfnbwuIXQU2WOXqWZRQU_91DF4gU2S6p6rxjgQ-XThPd49JNZJwYkz1jnGCBPNmsRoiyNOGHxG7dXdY7WLf0F-PbafXUF9KlKuXUwVtBx-oi22ktMwX0w1Laz-119Sd3-K-R_gPzdyVGtrB25M8syuQtOMy3EXqkmmwsL6JRKcN-fPSXrBXXJZjbAwKPcLhbnzv-MT3ZFIbrt19xmoOuLDBavlVakq9QHyuORw8bSqX09tYWwtXSW0ig0i0vzq4svhVMQiClQlBiqnzc_4D6BV9M29x7ZwVvXVd52n8M48egINEfT49a2RSGkmT1i7EfsrC7yyhaY5RCJVfcVoxThNP4EdJrpxtgy2CBIoxgR_b8mVYH5PmH2KiOwWfn0F8jKQ3259kipQ4q6uz9k3RLY11gBxF6uBSMWqndfvu9rarwxvBxfXzY0QLAl6dyb5vRuIRqUpYvokOw6b_PRnFFbmnvH1Se8T2Gv5E7A-8tswXaN1gmDGPZgFhAJlUA"
+  }
+}
