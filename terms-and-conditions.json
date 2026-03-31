@@ -4,21 +4,21 @@
     "https://w3id.org/gaia-x/development#"
   ],
   "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#terms-and-conditions",
-  "type": "VerifiableCredential",
+  "type": [
+    "VerifiableCredential",
+    "https://w3id.org/gaia-x/development#Issuer"
+  ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-03-31T10:16:05Z",
+  "issuanceDate": "2026-03-31T12:39:17Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
-    "gx:termsAndConditions": {
-      "gx:content": "https://gaia-x.eu/wp-content/uploads/2024/01/Gaia-X-Policy-Rules-and-Labelling-Criteria-v22.10-Selection.pdf",
-      "gx:hash": "70c1d71d3744654522646c59d99723223078a635676793a6e927cc1194fd6a10"
-    }
+    "gx:gaiaxTermsAndConditions": "067dcac5efd18c1927deb1ffed3feab6d0ad044c0a9a263e6d5d8bdc43224515"
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-03-31T10:16:05Z",
+    "created": "2026-03-31T12:39:17Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..ZcK0LfLMIwnWIrFxeBPckpeuDmjvkq7sQk9x_DYcWkSAldPu7rEFnCmHIc3X9QD4QaFjwXeuPIc_eq9MkIAUOlwvfmwLPuwxJnuSQI8QKhMh3HNpe0dg4K3LEX2hrua_DrwqJiFUwNbEEugB9ipfux2aKEa9SF4cPLp_X2FFcKzXlPsEfnbwuIXQU2WOXqWZRQU_91DF4gU2S6p6rxjgQ-XThPd49JNZJwYkz1jnGCBPNmsRoiyNOGHxG7dXdY7WLf0F-PbafXUF9KlKuXUwVtBx-oi22ktMwX0w1Laz-119Sd3-K-R_gPzdyVGtrB25M8syuQtOMy3EXqkmmwsL6JRKcN-fPSXrBXXJZjbAwKPcLhbnzv-MT3ZFIbrt19xmoOuLDBavlVakq9QHyuORw8bSqX09tYWwtXSW0ig0i0vzq4svhVMQiClQlBiqnzc_4D6BV9M29x7ZwVvXVd52n8M48egINEfT49a2RSGkmT1i7EfsrC7yyhaY5RCJVfcVoxThNP4EdJrpxtgy2CBIoxgR_b8mVYH5PmH2KiOwWfn0F8jKQ3259kipQ4q6uz9k3RLY11gBxF6uBSMWqndfvu9rarwxvBxfXzY0QLAl6dyb5vRuIRqUpYvokOw6b_PRnFFbmnvH1Se8T2Gv5E7A-8tswXaN1gmDGPZgFhAJlUA"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..ps32ELwxl7ga-AdLKPzeaot-mxvwEh5TZ457ZaZ8Iku_Rhyp9vHLHgRK-JIpTYO98ZeUUcoRrXz_g1gYWCZ5I1Ba0g84Uf_qDARkl6BXjNCYZGtyKAKY00QFNJsbk2xlxY3hTwqgQndDF5n0VJ3SwHBUvnW-CTW5u6WNNDIJQuOcbpqs6zS4dHIP9qoLz9_96BOKJH3jVgDlaHJLQUVRMOdWb437k00Kr4QzBv0XDMdAs55mtRtVLbodjU0X3x_PGG1HnsVMV_tYXCYe_HUnX6h_7mJETDkjR5M2VKAxPBj883nVJti8wTjyQLrW6DaNc9UATpHfsusG7MzYScinsKLLdO_uGdZcPcTAhkkD9rBhdPJY1Ea3Iltu9zWpR4EKrVbgV55i90iK8BhRXyL-o2-F9uRqHvq4UfhBK0Oq-H0CvGYTDu41xNW9FKJ8C7HIzzRabyddPxaRx1PMBpYHWnN4pes1q9SnrXDK88TXDTQnJfoDrfK8YMASKi6BWqkWG1JhqkA_VBjbL_I67LidYyKLD20LI_qDtHn89vdnfPNZPa7lhllnnuZ7Xa_gYb8nrrcnzbYdPY5U7nitKt8WfySIUwScLmzCWQ53LtG3cdP_2RM9-RQ43dwR9B1LTpNzQoI0t4BDdxL7nxIBXweHaPDtesKbP_fvHDIqkHVV9u0"
   }
 }
