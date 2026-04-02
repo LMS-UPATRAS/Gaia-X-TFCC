@@ -14,11 +14,14 @@
     "gx:Issuer"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-03-31T14:10:59Z",
-  "validFrom": "2026-03-31T14:10:59Z",
+  "issuanceDate": "2026-04-02T05:38:41Z",
+  "validFrom": "2026-04-02T05:38:41Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
-    "type": "gx:LegalPerson",
+    "type": [
+      "gx:LegalPerson",
+      "gx:Issuer"
+    ],
     "gx:legalName": "Teaching Factory Competence Center",
     "gx:registrationNumber": [
       {
@@ -45,9 +48,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-03-31T14:10:59Z",
+    "created": "2026-04-02T05:38:41Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..G6NREiaW5-X9V2u4vEvFqAUzk-mr60bes1fd18R1g7Y8XCLPNjYTzeDAAQFQ1E6Drdn5WENEARNg9uonnNEmRtC-zTfuH7UhadHPMtJ0E7z_ZQ_B8kseO8QOoULwlumDoMGAeMrNWYxo8A1P7u6Zuj_ZOQ_SV4MQH9eU5datblrGgVMAOs1NzavKhQr2fARI2n-m8hJiSruJvtXn1oOg_U-VE1PMrrRlJifsUQ6XK3fJ2AMwn3TNv3mXtlpPt4hRx7bGGFrKitdNSMk_gK0AXdclaEyggTqRkp9d_-tKhBmsg4Bn3vLfbeOqrKM8h_OxT_46j8MQY70E50xYL38gfMYs4nNp4uQ69q5cgfQJt1iSWmYdUBxcVqqzrnR6AKEaFOy52lP7q_w_UBJ4PFY4LjrsgybGtVF3S51v_TO8CCHOJOnJXQN5Wf8MFsN-tqYBPqJSlxbJUFBemgyq2Ec8q6hnIZ8-AvbxYPvGeC3FTfSc4KnkpM_xWc5zuPYAwDHZQdzydoNae9Pp6xRWJ1brrGy0BLElPY5LrlcXTtV3tKDbQ7U17A4MDtcUsoInF66RfD7t-3yi4U0Vwtt3Qj0RDN5R4VDrq6UE5RYIPbiw0w7-SKIabdnFjBjEfPW3Rd_bJYsbI2cCPhnQkH9cn7Oqp-XWE1AiIdLTrnFk8V5eN-w"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..z6q12tFjmAe1DaY-lqvgCs5yRg5zdGE5CZGvr1S1W9CYlc-znVrZiysnTr7q8Tusvx9CRPdZ-hhLDGO66w10Ae-O9GY_pY0f4OKw3woO4GXO40v6iAOH9J8GDdnwy-St3H4Q1LsT35-FT2TVWMl2imDdJrtP46n3Rs_CdQFvc95SSG91cNEjZkFc9iri4Kj8ZNInhhqAWDsGL1pEjm7aTMaav-eUZCsdnj_iUHYPbh4d-CBEa83MA8gU7HFF2lzFxgZB-qrw9D2lR_UgZGcWlOWmTVMz-8WN696f_feVlX95ff3Wo7EqWyM0VyecQtyDkFku1yUN0QjaO6SPrgJKXGBtp2H8sXuvoQ0x7IE-aVbGsiF1Xcp9HvUizbO0THjFhifG9cis-LTG2ET9uUjEBxBY1RCsEANZn_N0Mi52-0MtcO8p58qd-2KVIzODouZs1fkusPRhmZefIBNL_09XFbwMUArOJ0GpJmzedOHC8InEHI89MfQQOL16YXgHYavLqGSYx-vobX-oCQHSUCsr27qTIFtmesWHwTthGfoyijms0M7ysrZkG8XCaXI1FgqRgbGwr9fMn6V1-TUUCtwnuqoh273gQ7416RMcQbupIkc9R58EmvIrhVTINA5kvwajr8YKztoDAXQlenLnEmwacaHiqmxaDOnoJR1OquqEqFA"
   }
 }
