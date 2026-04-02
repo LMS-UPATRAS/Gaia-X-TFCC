@@ -14,8 +14,8 @@
     "gx:Issuer"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-04-02T05:38:41Z",
-  "validFrom": "2026-04-02T05:38:41Z",
+  "issuanceDate": "2026-04-02T05:53:20Z",
+  "validFrom": "2026-04-02T05:53:20Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
     "type": [
@@ -48,9 +48,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-04-02T05:38:41Z",
+    "created": "2026-04-02T05:53:20Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..z6q12tFjmAe1DaY-lqvgCs5yRg5zdGE5CZGvr1S1W9CYlc-znVrZiysnTr7q8Tusvx9CRPdZ-hhLDGO66w10Ae-O9GY_pY0f4OKw3woO4GXO40v6iAOH9J8GDdnwy-St3H4Q1LsT35-FT2TVWMl2imDdJrtP46n3Rs_CdQFvc95SSG91cNEjZkFc9iri4Kj8ZNInhhqAWDsGL1pEjm7aTMaav-eUZCsdnj_iUHYPbh4d-CBEa83MA8gU7HFF2lzFxgZB-qrw9D2lR_UgZGcWlOWmTVMz-8WN696f_feVlX95ff3Wo7EqWyM0VyecQtyDkFku1yUN0QjaO6SPrgJKXGBtp2H8sXuvoQ0x7IE-aVbGsiF1Xcp9HvUizbO0THjFhifG9cis-LTG2ET9uUjEBxBY1RCsEANZn_N0Mi52-0MtcO8p58qd-2KVIzODouZs1fkusPRhmZefIBNL_09XFbwMUArOJ0GpJmzedOHC8InEHI89MfQQOL16YXgHYavLqGSYx-vobX-oCQHSUCsr27qTIFtmesWHwTthGfoyijms0M7ysrZkG8XCaXI1FgqRgbGwr9fMn6V1-TUUCtwnuqoh273gQ7416RMcQbupIkc9R58EmvIrhVTINA5kvwajr8YKztoDAXQlenLnEmwacaHiqmxaDOnoJR1OquqEqFA"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..xc9pe7dR1MnXG9ymrdqNyXfDBAjq2hmULw5TY4SeRc_eJjuN2H8RnB7SKMlbtgH4Yb8IhaH2h5O84stESj97T6dt0ZEFNqOrWSjCRzwTHWAd2Mk7Jopt3pk_wDbgpmXrYwqyZQ4OTU4qcBBsym6C5DDOnztcuNLqgR7Cm1zRNWfV3Vy-IcEweZuqhjdYuMjpG4WtEHsVx9S0apWTDswYKO8ncTcHp7XLx33H1c7DZVn4Um-ozW3zCI9xNS1QZF-bJD7jipGhLXRmHC2ZofsKFEXGgAs1ghTuO0htQJTlL0VW0304oUr4HfqYClqKtu6Q3jSNt-hAqzngAfIrbnvrXDxdOGpJKF1JbIxmkaJ207xFbn9DGwKcTjr4HdEkVp1zdBwOPxpDW21GpXy5ja71ZJbZGxrzhOxTqv0a65oO3YOWL1ePTt_dwpcasSAro-9-v2-lEUITOoh5vMEAF47wXPZPvw_k8x_DRwbv39ghGSihLONGapRy90zKEL6_sjP6yoj8mQanm2gChLyd00WqFS5LbMaLl4oncxXvAYrvizSLminTmRgVxB2t5KNAzT6GhoG6OoSttP8kYoSgvMRsAfuhzd6KmBFyLIkrqk7uXYgW5H6OdXygpanstyHAqMG0HTyNIlIuYeTs6rsfDgcr_b-Ft6pI8TfQ5V59skbTCpM"
   }
 }
