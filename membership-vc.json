@@ -9,11 +9,11 @@
     "VerifiableCredential",
     "MembershipCredential"
   ],
-  "issuer": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
-  "issuanceDate": "2026-03-18T07:47:45Z",
-  "expirationDate": "2027-03-18T07:47:45Z",
+  "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+  "issuanceDate": "2026-04-03T15:09:50Z",
+  "expirationDate": "2027-04-03T15:09:58Z",
   "credentialSubject": {
-    "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+    "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#membership",
     "memberOf": "gaia-x-dataspace",
     "membership": {
       "membershipType": "FullMember",
