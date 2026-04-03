@@ -1,39 +1,106 @@
 {
   "@context": [
-    "https://www.w3.org/2018/credentials/v1",
-    {
-      "gx": "https://w3id.org/gaia-x/gax-trust-framework#",
-      "gax-core": "https://w3id.org/gaia-x/core#",
-      "vcard": "http://www.w3.org/2006/vcard/ns#"
-    }
+    "https://www.w3.org/ns/credentials/v2",
+    "https://registry.lab.gaia-x.eu/v2/context/2411"
   ],
-  "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
-  "type": "VerifiableCredential",
-  "issuer": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
-  "issuanceDate": "2026-03-20T16:12:48Z",
-  "credentialSubject": {
-    "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
-    "type": "gx:LegalPerson",
-    "gx:legalName": "Teaching Factory Competence Center",
-    "gx:legalRegistrationNumber": "EL996725061",
-    "gx:registrationNumber": "EL996725061",
-    "gx:headquarterAddress": {
-      "type": "gx:Address",
-      "gx:countryCode": "GR",
-      "gx:region": "EL63",
-      "gx:countrySubdivisionCode": "GR-G"
+  "type": [
+    "VerifiablePresentation"
+  ],
+  "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#self-description-vp",
+  "holder": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://registry.lab.gaia-x.eu/v2/context/2411",
+        {
+          "vcard": "http://www.w3.org/2006/vcard/ns#",
+          "schema": "https://schema.org/"
+        }
+      ],
+      "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+      "type": [
+        "VerifiableCredential",
+        "gx:LegalPerson"
+      ],
+      "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+      "issuanceDate": "2026-04-03T15:27:31Z",
+      "validFrom": "2026-04-03T15:27:31Z",
+      "credentialSubject": {
+        "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#participant",
+        "type": [
+          "gx:LegalPerson"
+        ],
+        "schema:name": "Teaching Factory Competence Center",
+        "gx:registrationNumber": [
+          {
+            "@id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#registration-number",
+            "type": "gx:VatID",
+            "gx:vatID": "EL996725061"
+          }
+        ],
+        "gx:headquartersAddress": {
+          "type": "gx:Address",
+          "gx:countryCode": "GR",
+          "vcard:street-address": "Main Street 1",
+          "vcard:locality": "Patras",
+          "vcard:postal-code": "26221"
+        },
+        "gx:legalAddress": {
+          "type": "gx:Address",
+          "gx:countryCode": "GR",
+          "vcard:street-address": "Main Street 1",
+          "vcard:locality": "Patras",
+          "vcard:postal-code": "26221"
+        }
+      }
     },
-    "gx:legalAddress": {
-      "type": "gx:Address",
-      "gx:countryCode": "GR",
-      "gx:region": "EL63"
+    {
+      "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://registry.lab.gaia-x.eu/v2/context/2411"
+      ],
+      "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#terms-and-conditions",
+      "type": [
+        "VerifiableCredential",
+        "gx:Issuer"
+      ],
+      "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+      "issuanceDate": "2026-04-03T15:27:31Z",
+      "validFrom": "2026-04-03T15:27:31Z",
+      "credentialSubject": {
+        "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#issuer",
+        "type": "gx:Issuer",
+        "gx:gaiaxTermsAndConditions": "4bd7554097444c960292b4726c2efa1373485e8a5565d94d41195214c5e0ceb3"
+      }
+    },
+    {
+      "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#membership-credential",
+      "participantContextId": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+      "issuerId": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+      "holderId": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+      "verifiableCredentialContainer": {
+        "format": "VC1_0_JWT",
+        "rawVc": "eyJraWQiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtTE1TI2tleS0xIiwidHlwIjoiSldUIiwiYWxnIjoiUFMyNTYifQ.eyJpc3MiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtTE1TIiwiYXVkIjoiZGlkOndlYjpsbXMtdXBhdHJhcy5naXRodWIuaW86R2FpYS1YLVRGQ0MiLCJzdWIiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtVEZDQyIsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy9zZWN1cml0eS9zdWl0ZXMvandzLTIwMjAvdjEiLCJodHRwczovL3d3dy53My5vcmcvbnMvZGlkL3YxIl0sImlkIjoiZGlkOndlYjpsbXMtdXBhdHJhcy5naXRodWIuaW86R2FpYS1YLVRGQ0MjbWVtYmVyc2hpcC1jcmVkZW50aWFsIiwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIk1lbWJlcnNoaXBDcmVkZW50aWFsIl0sImlzc3VlciI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMiLCJpc3N1YW5jZURhdGUiOiIyMDI2LTA0LTAzVDE1OjI3OjMxWiIsImV4cGlyYXRpb25EYXRlIjoiMjAyNy0wNC0wM1QxNToyNzozNVoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1URkNDI21lbWJlcnNoaXAiLCJtZW1iZXJPZiI6ImdhaWEteC1kYXRhc3BhY2UiLCJtZW1iZXJzaGlwIjp7Im1lbWJlcnNoaXBUeXBlIjoiRnVsbE1lbWJlciIsInNpbmNlIjoiMjAyMy0wMS0wMVQwMDowMDowMFoifSwicm9sZXMiOlsicHJvdmlkZXIiXX19LCJpYXQiOjE3NzUyMzAwNTV9.rWtdNb4DwC4JT4kea6r2fYnPABMcypLGu-LpfRhduojDNVvSAz82FQYzo6mUxObok3OEVr8sawc1HvERkhcHwAyLN5QCa6ogkXt0ziq-lq9AZpO5dGgy_hyX_Q1qeZ85HI12yV2uJKJ3TQAnKBL7XBD7HxmxnBLX_ZIiHcQ3bh5w9S1T_-p9yvlXT_FLeoEsix8PJCwet0PB5qB6xpTWeeuzu7v1Qj1XxE-_Wy6Hmfay0GGXo9HeTdbP1xATYTd0DuW67U6m_5bt5r1yde5ma5BtzNNOnH-M33ahUXKJxH918nCLQJugMm0rjcEwfeLcKfv_xeMlUmUoXaODXSTWG2vD9E-ZIOglex6snWGpRwZj87XHTAMBBcPhBxy6Mg0XkRMBf76jyGD_ErIxPgQZuSn7cfOC7oYNOFRp5pQ9H9dnpMpIi70f0LN7jmRA8_Tsz-n8cOr11HDXoOW04fs6KqgZG8r5pygga9pa-B2gsNjAJCBbr0FM1tWgS7G08003y-CZ4vdTBzspPM2JJfunI89UAZWIqwW87BH9l84yznIg5ZOJmnXLo5ISdnGekBoXLJ6iGs6MP_Ke9g_24NXomvdslOuG1J7xIwUEpyYFFTTxx5ywuxVHJW3MbPImTv5L6pdN2K0JXMel9ShBBgGITwbowmaAu3XsV_O9ovA4cnM",
+        "credential": {
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#membership-credential",
+          "type": [
+            "VerifiableCredential",
+            "MembershipCredential"
+          ],
+          "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+          "issuanceDate": "2026-04-03T15:27:31Z",
+          "credentialSubject": {
+            "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
+            "membership": {
+              "membershipType": "FullMember"
+            }
+          }
+        }
+      }
     }
-  },
-  "proof": {
-    "type": "JsonWebSignature2020",
-    "created": "2026-03-20T16:12:48Z",
-    "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-TFCC#key-1",
-    "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1URkNDI2tleS0xIn0..ixf4MBu3LEmwmwdkcSu5HPhPXoMUcndU8xs7jsTcIBk4lKRGKXhTP13rSVW20x8fuz_IRFLPkRE7t_lSf8qJHYf8UxPfuey_v5BXLnvk0uJqc4mo0RvXuzmeW-Ngot0vL3KAQKT_d-URwwFiLfjf_tKBXLkwEIcA_cC4IrZMLE4mNGtW9wj4RpWhZhSK5YeLdD5Jm5eKIShK1RskNqQsDS8pD88fdlhe0-obCDNdbHieRasSZ5EREw50Ua9wGC1wE9-KjXQ8oN6cy-p8JX8AWQ40Bq1EKwP0UWzB0yKfALz8-YWdPQDpyy8aGTVuetXydTKBAQuaspYksd2A9ifF7wpzhEYPEf7PbtifaBUCrt8GyM5aNM0oHMW1UmPaNOQbc3CY0A0t0ElFB4ULEX45jIKhgCvhft_eolXEOsWHM7GKxotbmgh921kAvaBTvhXTC05_0bArcC0Dw6fCyk5DfyqRF9pyeW-HQAjtmYEvVNVKgo_rMnGPJ3RGjHBa25zFIALwP6b82-6e_3UrHHfJRZq2UHUigfDonihgSMs2ayLa91BqdhmoQoox3cQI5fnpl-9p_4FC8PpzTOpBAeCibPMjteynAZFN4MRtBi_f13L66BNhF0zbTFr1dFFJ74qpTqeKsgzv9xpBUPbV2YwBfGumG_ZJSE-VGeIRgISGnCc"
-  }
+  ]
 }
