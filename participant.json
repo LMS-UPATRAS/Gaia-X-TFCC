@@ -3,7 +3,7 @@
     "https://www.w3.org/ns/credentials/v2",
     "https://registry.lab.gaia-x.eu/v2/context/2411",
     {
-      "vcard": "http://www.w3.org/2006/vcard/ns#",
+      "vcard": "https://www.w3.org/2006/vcard/ns#",
       "schema": "https://schema.org/"
     }
   ],
@@ -13,8 +13,8 @@
     "gx:LegalPerson"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-04-03T15:27:34Z",
-  "validFrom": "2026-04-03T15:27:34Z",
+  "issuanceDate": "2026-04-03T15:44:22Z",
+  "validFrom": "2026-04-03T15:44:22Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#participant",
     "type": [
@@ -23,31 +23,30 @@
     "schema:name": "Teaching Factory Competence Center",
     "gx:registrationNumber": [
       {
-        "@id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#registration-number",
-        "type": "gx:VatID",
-        "gx:vatID": "EL996725061"
+        "gx:type": "vatID",
+        "gx:value": "EL996725061"
       }
     ],
     "gx:headquartersAddress": {
       "type": "gx:Address",
       "gx:countryCode": "GR",
-      "vcard:street-address": "Main Street 1",
-      "vcard:locality": "Patras",
-      "vcard:postal-code": "26221"
+      "streetAddress": "Main Street 1",
+      "locality": "Patras",
+      "postalCode": "26221"
     },
     "gx:legalAddress": {
       "type": "gx:Address",
       "gx:countryCode": "GR",
-      "vcard:street-address": "Main Street 1",
-      "vcard:locality": "Patras",
-      "vcard:postal-code": "26221"
+      "streetAddress": "Main Street 1",
+      "locality": "Patras",
+      "postalCode": "26221"
     }
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-04-03T15:27:34Z",
+    "created": "2026-04-03T15:44:22Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..vUdjSFQ8lchyNl13vlzGPpuwhF1JCoVgiKeRixUtCRkeBfPopqiL5rs27JOfvH0YksUrjvd5zounGRm1X52Bj6UEBGz4IhhLoXGsfJkDxF8lyDUz6Ga4L8e59a5siTuulukhwOS-Mz_uQm0rrU-mbxFc3vR6dXkfhpeCk5vZvyZ7-p8DfJgHX-U0RbY5Hb_-QBSXFVwEpwgNn2IRn8phHLMKm4MYsasVqnMP8tzSgXL4cE5aL-CE5ce5CalaSx6kxNOtzpdvOFNOaUO6dE2BfJfwKTRjcXeMqAuQ0We8TE4S4s-WRBDx8-5fwBFhOdo1wQylaT8Lymm3944h1uotupzdRxc3loFNll-Gi0doOm06fyUh4VXbFJHpMGzHuBwlbRXFmjCrpyP31hXxbqCV6hS4GOdGuFtJksoiaTraC0vOrD1buTkSRkrgtiC0BytLpeyZv254GymToHHmCZVZkUaWVfiL1vThhQEwuSXVAh80N6fHiKofd1hnn3Mwp9hAtem1vUkif67jZlBWzx5kHe7ES74lKZVtsMwau8dsKutKY2OIXgjBzMQuhF2wsICcxH5x5TmgZpK-y4kNtdPuVdzz-hDSJbLrh9Cz5YACheKh8p9DQ5IhwXHstYVk06IkWIIDNc4kyDtkRHobO3mzZEVcoiYTlEAZpwqe7oZ4dk0"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..NNlgVrDBD4z3A3zY9AzvONHjAJRzkvP2eQGxeJZdF6kps37C4Dc8Odlzg4QJvsGwcUq9CrIqcyhzNIn8-77O495nZ-KOekCLeaoyKWGyF46C6DomRMbcihEez9hgSOTslp4fXroP8TdjifGTQfA3FFKpu_EY0bVS_BtYu1Jil9YRlVkFxLWY1Wb0OQlpC9bKpCgdy0g1bfjABV38atP5o3Uoiebtrw0otRh0U5EpLsQgFx8UQszpez-6F_-9Bc1o6s87aDL_L-vaUJCR8QKLFkjpm0TWnV51LbaXc3yTe3HGvDv5JLw-zjhOqOQFawbj1Y4m6ofi6n1YBUhrb0OfECcnw-SPmdO1g0BbA3ukW5XVqG-9156XAmQGac7d_i73J8fZ7TutdG0PmSrfFL0E8jyIwP9sSQ5YM9Fc2r4Zw2SihJI6IZ2muHZvingYpQsPjOCxACMCN9lqHt6XE1thdsQuM6DsDri3gIrF0nLV3q0H20fT6jSgZhURVsjY2tgwBdyqiXOZ91evWtYyL0ceKNFSU2r3EOfRW_KkGiX32pQtZixFBOY8y7ojSbEMVPQhc0Hsb_1TI2mIysaqcLP6zWh78-OKrMyJ3heiEb1pZtKgHmobJWZOP705BLPOR-4d_IjPIM2V09zNXMnwoQdTHsfMCwf6fhr5Lnc3QddnpdQ"
   }
 }
