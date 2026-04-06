@@ -9,8 +9,8 @@
     "gx:Issuer"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-04-06T09:55:36Z",
-  "validFrom": "2026-04-06T09:55:36Z",
+  "issuanceDate": "2026-04-06T10:01:14Z",
+  "validFrom": "2026-04-06T10:01:14Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#issuer",
     "type": "gx:Issuer",
@@ -18,9 +18,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-04-06T09:55:36Z",
+    "created": "2026-04-06T10:01:14Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..vZK_WuGGxVkN7LoA81Dvqp2SjuquJ-Wc6IAb-bo5syKMIq69c4Nz_bKbt2Bcp0MsOJT5xSMO2VrCPEPlXeq5Odr24ILDRETylOtOuNP5i39HkXEeEaLNUo0o3DsHTMjjhwU3gj59QkfzaqOmQL4ltxIMMWY0p7TVRBL5aAcaNjZ8YZcGYRWMfrk1xMKbNhJ68uQCSyaz3-MghMVBmiv9JpFsceL-8yNYiaC_9YvQq_oM9L0MRLfiZIy7Li5QeQBRXJc83UgVTNkEBR-8URwj8gcG0TUW2MGwfR1QWOjRcMrmFR86TD-GHyce5EEawNFRpeXZNS2rtYxJVRPdM9yXa6UHkipLU4TRKZw_wXqPK3qkNUpVjpMayxeb0PpUATH7ErZgJgyf6CNj69piwAUynGlp7z7UYDwT2CTU_qWBzHNYYvp86nbOlDI2YL_O2dnjdBI0hnbUruieZufQ6l0UG8js6TzPYt7ws9AszjqIA3wec1F_Uw_tTyYpqrm5TLoG7AkiGk50TxB3vCLzos5KhXSn81u5Jceuv4jBAZVI2GcCna4P5M8Aa9mS-p--1vzB5JL8uoiYO9yp4-z6T-TcI9vTQwPxBzjW7XLR5757f_dJbo6liQRSkirGfVU5A8ko5G57WJSugMUZrvlP8inqEy1Q9K8k9_SxHP0UZFMeOUI"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..MNK7reJQw5wYlYz4VhsRxKFqN0FNn9UcfpVeOZ0tM2NR_vHtJdxWB0qoHlQLuB7fElHnYmtbrUYSzqIzlEQef8HE2973-fw6N8Ialll5YNpnu5lkVnlHcbiw3BMcbXzcka7t9_fvi8KLe7J7f2uzQmi0YDvu24mSTzHG0BJ_a5oSkJRG3bPyScnmx80Ck2qqXb71h4KLc2Jy-nl2cIvjYEpBehUnARn3-UOoU-8rq7l8RB_740QqkCOFuARQBVy_YXUmJT_4RkI5HegPKaEwKlcF_PmnMk3s19AAo2FSuIGjeg_0Oi76gFAD3FYfVYnrYoGVOsX5bWeGe1Mj_b6maA_M-oBfSxO4CfBDUouRGTm9Kw3fND_9SVTHzG-mHpKom9Iks2knSG4Aei3PiCfMxk0y8QtePEMtR471Tb9ZL2-feIruzxYFaiLjK1MoijS1Qilko-zAwxVltK0I7budMKT_ELNSdxrTWTMzVXPJcX_D_6wCmlRIUXpYpiB5PTA99w1Kj9OnimD0Gy1Mn5Z181z8m8osT15ETC-2UtzzBaxnoULZTvrgZPxvEfwcBFFA2TS0oskSpGqteESIgOwCgGjWceF35-x0TZJfOC7ZKnuSW5MiVFpSHtGMCVXx07PW3NytDxisEGG8MpV-XjT5821doeiaZGaFjm_D2G_-BiM"
   }
 }
