@@ -12,8 +12,8 @@
     "VerifiableCredential"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-04-06T08:21:58Z",
-  "validFrom": "2026-04-06T08:21:58Z",
+  "issuanceDate": "2026-04-06T08:25:52Z",
+  "validFrom": "2026-04-06T08:25:52Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#participant",
     "type": "gx:LegalPerson",
@@ -39,9 +39,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-04-06T08:21:58Z",
+    "created": "2026-04-06T08:25:52Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..x80fxRJJ9IEm--A-_Iq9FqboIlOqioK7f8w1nS1UJLXihdb9J16IBVHWH0yHYKWxlza98ZePBybKyqPG9p7-O8geC9WYLY45T2iOvrKgiLnzgHWXOdg67wZ9cyMFL6bd3459mwDu8UOf7NqTDprz1JdzgjYFTwW24IhEuoJMf8fbYhWbgyqK8x_lWdf4ZGVXwggfLEYIWKAmEbfJDeGSlhS9kVD-pkp2sWnWC5dtv88WVbkbHJKzvztseF_PBzC3cfMa8U7W6W38W7kd6z9q8wiVnwthIwvV1etGyVzoONDvQOSkSTS-1aAeYlKciv4nNyXQwjXI1ds_tEGx1VWy9oamoPbmGCHehcWu1W1cj8P157YxUVbiaosP3RuBaMxSRZnhwNMo0mhbdXLnQzc5pbwcjnFKNRiwKU2YQNtXWvwRuDiiAkvWtTuWLLiOm-WWiFsupWnK3x7BJWBOasGhcHJy-w9oorPaemqHZ33kkhMu2e2ghiBmcNclHcpcevzpFO3ZnJPyGeHjNOTaIiRVua6uaT0RZKix8UFO7u2H738bDCcM5UEK7G19RTnRs-lk4xXq4jwMK3NYIickMzoxkWzIRSGSqaslmYkzFX5e_N1auX1ZvRmliC7NW6-YIiCVicWrQL8D8bZ1VlRtyfexNFs-R9LatNV6LWirUVO4yoU"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..NtG-ctIu4dD3wDWk2SLNgmFHabT5qNvbDU6YpVTneJBN5GkA8aXqlokil4VAEsYbwXdbwcvtbylLwOYCEo8NNAzcelkqGlOHBAOLhBVZp0oVjaLpYw7YfN3RTMGtT4ACg6OJDHkg6RzZpMloPXchlaqAgV8n8ivIxqmIUBmC_9c1jaoBXNu-72UAxe9B9PQYw8v_kSqVRTS05c28ZSF885OLnkPKqQJgtQOgFuX6thVeREsH7sfRaYZtsy9lK-HaaH2ooZfpUY_WRlyDlE7Kns8-f9ZameaDtM6lgm83mAZufPKuaqKp73tlBbaGBTEWyliN1yD9MkiOhR2be7PmPwcsAvBWjnYpPYKuyjpsvClJ6zXg9tmYKHZEKWm406rvLYfJX-NkCtG5_dT4z2Z_asiaXz9XIunOb2TE9M1z9u53dgQ672kCLPnUpdLjwFTSa451CgyR48C-8Hbrz2gCQgHkjWOqoOeMQQk4AetOL8w2w4UpjvM2xJDfcTR0ES-U_HVFcZdwL0mulhttR7Y6ozA1_0pJaQxamEmB1f53_QrdBqEFzmvuVmiJFWRE44i3BA2DHQG7LRHO_7-EpzMwHoqJ79NCYmarPuK45bIslrf16NfXc2v6JkR4ADA4akkW38WV_St3tmJeOgBeRox8Of7asDoTgLh3jJ4U1yF18EI"
   }
 }
