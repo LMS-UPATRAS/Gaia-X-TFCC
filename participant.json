@@ -12,8 +12,8 @@
     "VerifiableCredential"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-04-06T08:25:52Z",
-  "validFrom": "2026-04-06T08:25:52Z",
+  "issuanceDate": "2026-04-06T08:28:34Z",
+  "validFrom": "2026-04-06T08:28:34Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#participant",
     "type": "gx:LegalPerson",
@@ -39,9 +39,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-04-06T08:25:52Z",
+    "created": "2026-04-06T08:28:34Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..NtG-ctIu4dD3wDWk2SLNgmFHabT5qNvbDU6YpVTneJBN5GkA8aXqlokil4VAEsYbwXdbwcvtbylLwOYCEo8NNAzcelkqGlOHBAOLhBVZp0oVjaLpYw7YfN3RTMGtT4ACg6OJDHkg6RzZpMloPXchlaqAgV8n8ivIxqmIUBmC_9c1jaoBXNu-72UAxe9B9PQYw8v_kSqVRTS05c28ZSF885OLnkPKqQJgtQOgFuX6thVeREsH7sfRaYZtsy9lK-HaaH2ooZfpUY_WRlyDlE7Kns8-f9ZameaDtM6lgm83mAZufPKuaqKp73tlBbaGBTEWyliN1yD9MkiOhR2be7PmPwcsAvBWjnYpPYKuyjpsvClJ6zXg9tmYKHZEKWm406rvLYfJX-NkCtG5_dT4z2Z_asiaXz9XIunOb2TE9M1z9u53dgQ672kCLPnUpdLjwFTSa451CgyR48C-8Hbrz2gCQgHkjWOqoOeMQQk4AetOL8w2w4UpjvM2xJDfcTR0ES-U_HVFcZdwL0mulhttR7Y6ozA1_0pJaQxamEmB1f53_QrdBqEFzmvuVmiJFWRE44i3BA2DHQG7LRHO_7-EpzMwHoqJ79NCYmarPuK45bIslrf16NfXc2v6JkR4ADA4akkW38WV_St3tmJeOgBeRox8Of7asDoTgLh3jJ4U1yF18EI"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..eWc5fJyqyQsZslVe_cxW7Qnv8i59g1qgpngfb4VRxglYbqdv-SF9o60Fkq-V_FEhF9uELLYmbxLxsepMM10WntrOwveDbsoG2twDErw1UiP60vQcGVlDsqHJE6RQLhNJ9vtkUPbzq-gaX5VY-wo574gnIH9_hx9ckwbtoar2SCTvHXqwSSvqRiRvJi1INpkrgjGCr-of32eK4DLTdO0CN-yDbcL3T9dNMNbwot-eOPwil1jt4BglPOS2bhxomTW9UyVvwrIj3JirsV0mzVTM04FZAo1OIyfgYDWPzjE79tm7bY-YK5T4rscAHxfbjhlmYs_BwUQ3iNkrNBJ8wpJfY01DI4osMOZBW_zjVdSS-3QJzcoEMpT70dmyB3u8HJ1DW8d9R0XHYilnq9GW0KF4sC1NcQYwY_gheSOCJKwuB5wroSfa_Kdo6OxgVM8JbIaPGA5ARaX_kagL31fc-MK82Wx-3MoS65tvMsWA-pNjXMtdurIiDAR2P-Acpl41KnXT6Qk3nbX72umJ7CDfpCrw47uXfEs_MiPfvCnIj6TYRG2P2sfqwhypk3o_gm7x7IOT29GXXZ63uNQvBlFQpwW-JaNKmuyX4l_GjeQiZvek0m6a-JVLO22o7NEfgXuP7Uwu2ekj2aKrLB9s1eEEB4wI6dpmSTVRFL7P0DliotlRP-Q"
   }
 }
