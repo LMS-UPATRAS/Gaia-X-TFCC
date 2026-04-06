@@ -9,8 +9,8 @@
     "gx:Issuer"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-04-06T14:36:07Z",
-  "validFrom": "2026-04-06T14:36:07Z",
+  "issuanceDate": "2026-04-06T14:39:55Z",
+  "validFrom": "2026-04-06T14:39:55Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#issuer",
     "type": "gx:Issuer",
@@ -18,9 +18,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-04-06T14:36:07Z",
+    "created": "2026-04-06T14:39:55Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..d0EZdUjEramRSdhguBudJCT8kMEhLp_xkk5eO8mCZgfTLdFnphBSnhHP2YhKy_l-juUr52S51h9c7HRBM9Gfw7Hs_sJFEGqOqSVEDgtDBUdae5_Kri41ngbfqHYj0hdyqkhnS9OIBKDW4v-YZr_Ue3BRB1m6clsKMgb88oDa8KoBxOJh0cxFUoK267uMOk-QX3n8PFRdy5e7C1Ps4ievAOAgzNShCnKb_p_AD2uesdwHo1dA5oix9DQyayF5f9-zQP0PCYIBHFOKBs9uzc8FzKGemb968a9_3hKDSmzfLx4R-6DaS8eloiugUz1JYWIXAi24T7_Plijsi-qSXOZjX_U9Su0JSo59LIzF1s7K_KuHYaa2y_b01HTScEcTbJJj7PHMF9kaWZ6l_s9UhqAeo9vKi5oLKHyL_zUILn6Rv-CvJ2klppGxOhTPfm08zP2fWRR13FfsIkWvfD3H_LrDRmzigGZ-fEtYrR6DyaUcHgC2MtrcZQXygZvD2c5Up49GmJnHECUH84gEmcAXhsMvYQwq8qIhLcNAdBniPVyxAdZNaMvlQBJBc0s7D78RoavdDupFchPqT6_O6XUjWIV73LGaSjw1xkm8Dhd2gEti7nbC5giV63_W_61Vich15KGEhXAOgEY9IZsNoxUBI8ffLVW5lSHQgux3JBuQ_ZocYnQ"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..E5ky_8_lmayYjrQVP3zR7NQ8pdDwziwRUYi-kAjjqlZqY74yLgnTjz52CwRpMQBeO4ZadEUfJyWpMmsNf5QQcTaYdJpathrj_1hJdzWwb1R02q5_zZf0vQbPkN2lFczMyrHVJ3e43xajN7Rg-1Lg_jf8Qy-qu2pEma07tZhemMM8u6hxrazKfwLb5WQJpB1Py9Kw5AzZD5DfOHgT-adhbHfSAfSl7IeNGJGRTJhm1qavixUpq4LuzyM6Ipsg_YYyvDYgnu_EDDifIktFX_NGalDCWBX_NVqQYEaFXdmcRuJp6qX-R2-f6y-SD1UzhZdw0xF4fhRsXf7-n8SmyLgYFQ0_74nbJFJ8TOgZ5iget6gqc1wKxC5J9SZJ8mFcxFgQifqKbXOcQgWLovHW_jVmGTwPsVpJ1rjMHq16VAG7eDLQ80llLhsSaV_LOHGTadSs7HhL3XgpLjTrRiB78cxs-1Epwzx2hhUJtClVNx4hSZNXh8Aa6SnbNCp_sgTOtk3x663FVC-z0Gt_P-9U8NTwrvUAhdeHoAuR83o7tQ2J_GktDEWzNij6trG7P93qoNSokCNOOluvsvPHh8TAkZ8Yc5pILFRCYLdOecMrZK0DWkLuORLiDzbFVcY1pnGucy3RKqUiwgdueNuXFDTSJUQftS1nZOcP2QgjWbGH2pDMnYU"
   }
 }
