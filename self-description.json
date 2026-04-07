@@ -20,11 +20,11 @@
         "gx:LegalPerson"
       ],
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-      "validFrom": "2026-04-07T07:55:02Z",
+      "validFrom": "2026-04-07T08:07:15Z",
       "credentialSubject": {
         "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#participant-subject",
         "type": "gx:LegalPerson",
-        "gx:legalName": "Teaching Factory Competence Center",
+        "schema:name": "Teaching Factory Competence Center",
         "gx:registrationNumber": {
           "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#registration-subject"
         },
@@ -37,10 +37,10 @@
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-04-07T07:55:02Z",
+        "created": "2026-04-07T08:07:15Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..QJ1tYzXw-R5hKu39Bup6-PE8AJ5z4gG7PXRTVS7x-XWfZCcdCeLVa15iIP1NfC0ScavjSZVh-rh_gV_0y-ohMoOPgY__4-On1YnBjQDFm4sJ6dmfhe1BqdZMykMfIxa2bArnuzgAhkitT3ooG82eDyEYWqiW1xlH36qh8Bee5I-8vpzXB2q1sajphoZQ4kKMwQqC4BRkie7FykaaGDTwhlMIsyLShi-t3BgIzfbDcG_N_PyVUWsGDef2PReVWA8d7fjwlltPJUGPvan-GUARjXdkY5lSvF2KF0SNhZaai7qI5JjTQNHors4lD74yVOu36X4dfBTlviTOeoJFH_rPMzw9PvnaIsuseIwGFUGkLiVKKavY6yPCo1FLQgmPtlibRiBybs3soYVtVrHQsGbO2hivfRcJ6qt-5ZTBqMcnXcblOOb3QWVcEvliMLP0A_Ea0FkqABQbIHDCscObjVFCyFLacdHn26dQmVHQsGjouP77mW4wEzCtHZtx-hWZ4GMFMMFJ_ZDy8YLRU8MiaM_uVHEwKBfxFtcnhMz9YEA1vtAkO40-mcRCmuiiIHcYMhH8yO4kAPOdw5DaUIz4Q2ysUi2Rqu1uOzgMvwnCOqH68ZBdh5jHIPOGtVeCbTqXY2D5CQx-NLXvRAp4bxFU1xI69byVLRyhtcwg40TauY2Wie4"
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..vltzrWQzebXbTTtlJu5uu4qwLEJhU9udfMhXx1DSBF0XWEwG2TsDuenwMPg8CsqnKr7n13evhDFb5OzWjh-KPZY0uWTeXe-L63RTNvromjc3W2xzSWdvMyNmAX55JJXXFPK-S4ouhglr3MBWyByD241WlDvC6Qt_V8cVegi9rDiBpQsQwTeZ6VHc-pcD1i-zeM05-LhWvQwgpOJRHdjDvP3fh83gCDTilqN0BWXGCPK_s1J7gV_TiVddkG_UPS8mnSvgppCClaxnuE-vApbmxQE6LZaNrrndaJbRs48djDZungLwECKZfb7ZZ7l_c3dE64bZhPu4cwC-rBVKvh0zFK6PNNB8Etyrh7bHathXoag9ruaYLmeM0SqbzDY9QtXgXB9gHenFiDoQDr7-Iq8j1Wrr-S_OQJwFTT6ufVykvIv9U8xrWDRUa3EKH49gOpBZiTbg7iGgMYMfXgzTQMX0LpUQ3AZRKdkeqESFTHTEEYWMmhrG1aX86EfRoBQJAExr8uPpkf30InJ0WSd4t4TSzrlrDexYfK745BSmHATbjRfw8K7WeiwIRm_NmtAw-fHLAynKZ2igW2Pcg2Y4Ba4Lcyqr2V_q4WSLVnUbIMBGxsghYZMr_ec6G_Ajw0Xbts6bZK2EdzY5Oegq3PfZ7LKvSX0Gery7neaeMRyRoZFCvz4"
       }
     },
     {
@@ -54,22 +54,22 @@
         "gx:Address"
       ],
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-      "validFrom": "2026-04-07T07:54:59Z",
+      "validFrom": "2026-04-07T08:07:13Z",
       "credentialSubject": {
         "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#address-subject",
         "type": "gx:Address",
         "gx:subdivisionCountryCode": "GR-G",
-        "gx:streetAddress": "Main Street 1",
-        "gx:postalCode": "26221",
-        "gx:locality": "Patras",
+        "vcard:street-address": "Main Street 1",
+        "vcard:postal-code": "26221",
+        "vcard:locality": "Patras",
         "gx:countryCode": "GR"
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-04-07T07:54:59Z",
+        "created": "2026-04-07T08:07:13Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..LjHgiQKQLTzG2iuUFU1Cd-DfPqktWL5OrzgP0vj6CkG1-cWOLw6WD2k500kUTu4iBq2hXtCywECzdrQhva4znu0A48MH98QoopB6CTztgBTK6kQu-gVdnXkmYZIJuyIaEVv1FubUWtobWrc1Rf2vhVXmJcwS7tatYyLJVNJqUbF2SEDo339zAYJWiikZWFcKP7GerX8GBDwj6NdgEET7s2GFcLoO2LDTVzFbwT1YNEdj09Inl7VJ6tJaWPNARmYfLsw2lgZeqx_1NBoW8SRa4brMScJu8hsBHxPXO-PSD_AaqY11xRF3145Q1AE1WvLlTrlMOg4scnyW9eoDVZAl0Afr_TPRc49fjd5mQ7m4u9-0wrS3_lErwIeA54BRYSK9qsJtjscrpcOCa4eiMwf_Up1aa8-WWkKnFXJD8kyAJ8-vOVR6yv1ImULzrvYKLyOI3PJsh69qXyWfrQ3BGH094ObjeJFIK_bIX5ZNg5_Muzq6XpdJyBvGqQkctYPMRl7keJiZ3C0XM0ELFuu_334kBdrMxtDBx5V-8RhtyLIbHRTb40jTmkk7WXUzcBMWnTvVart7m-F4zvEY9-RReIpvN8_LFlyu_In14vEYExPpqcaMaYkDSvFpCiwsMZF9F1wDVh4FP5LSFwqGRPhI1CAD2CnarDJSWFPCkwbgOuS1ElA"
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..CSuYJDUmQ6VSJbaxQ5TVTxbCXEE3JuMSYgJ1dorEtuWPqnhY3_aaTrwg_tugzMbA8Y9RF7JfEzFwbQNXr44G_pubtMjqaAt7uGGlx5bj1-KBNMI3ssSAscDHxLylMQOZyDHIqIAFBlcKo3dnrLrEuzKSKqKALfUZ7N0y22pUHeDRoICoG1raiyMHIE665mv-KPADuVur4ps8Av2Q9to6DqCa6mFqVW8e3Y9g_LjDbGjA56Zi_vr8M5VU2BMASQZGsPEqnvGQXonpnb7LgsA5PM3s_-MtGnvxJr_EBUxsHhzQtf45urNUI0Gd1WHYIfS4JMALZ7qu3GZfLBTmTxgmjctMx9cKXBrOjdQmNrT6t9M2Q9MLLcvPaUHCX4gtFE8ML_X2ogma-6lVgfXCCLw9FDEzmNSi0cvNruBsu_UbB0rAN8ZrxD7_fDtyglh6RrCmyn6eysKiDu4rsHYiukFzSX-F1-DktEiPXEyCrK7nfC0chkCU319pNb3SyftAyXQ70Fl67pLX9hJ-wyco6jqOU2SxJxX2K9yvIHkLVhV2U7hW6i6qD6LQZMX4z3hrPGqi-MaBieyYGyExJLfSMOfmv2A37O9xvrr2-5KN_F5muleJq_oN2pdLVg7w-3JX1NnY0FK7_6UxFBtsBIlM-xA5s3z1Ph-7bFwY0xE-A4lSrd4"
       }
     },
     {
@@ -80,21 +80,22 @@
       "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#registration",
       "type": [
         "VerifiableCredential",
-        "gx:LocalRegistrationNumber"
+        "gx:VatID"
       ],
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-      "validFrom": "2026-04-07T07:55:00Z",
+      "validFrom": "2026-04-07T08:07:14Z",
       "credentialSubject": {
         "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#registration-subject",
-        "type": "gx:LocalRegistrationNumber",
-        "gx:vatID": "EL996725061"
+        "type": "gx:VatID",
+        "gx:vatID": "EL996725061",
+        "gx:countryCode": "GR"
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-04-07T07:55:00Z",
+        "created": "2026-04-07T08:07:14Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..COrfxzCR4T5lMQFHEETiiUY8hJDCUMM-WCp-tHu5Op-4CM5M209TdJ6VKuFO-TrwNYlvMzXx682TvDIj8CsHZJZIO3PxG9MQQt-KLDDXWx2mFfC1WQEs6hNyQTOMf33_l-vf6LlLNJqsAUKpcICSJmvT5sbcbPDANCO72nJ69XEOJu-LfDEH4vBYIYB9PMoqw6qnu-J7swbbQ0vPxXEIBVinWee7rvwSCeOBGnfZ8xEcAMgeyeUE5R4ZHyFo5djzcKuNa1p-I-cPpMkWRH4Khbx6ItvyNRhSPKEhQY-MVK5oSDCKPkfY8UwRa6mnh9pYfgQALT1GWmqLHLIgWImTJ-7wQ13rJUAl-HAHMdHjPrpbHr4xV6rh5_V0jDBicVGWtQluOyg_ZN9cWAGdFyx11bnnnXv5IVfTRSDDDg3E6WMI8HrbM8FZGperfIx6YL36jkX1wgHux5zcE3MlaYY7l3aK2Dxy6Mv_TP42w7tRYCGVubFOegnRBR_a86zGFoKe4NVmX-Q7p1GI4CDIh42EjebKA9TdbwrT9tjZHsMGC4Jin3FEYBr3MUsMG596anoxLnwoZRcwwXNSLo8xsIwjeQUqyUKnpCP2v7okwVUKvejaWhxnst6HfGVHWjsL_OhAIzOm-CINwbefd-h7TBJGpySVGX8ik4ykF0i6La74btY"
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..huUSYZA7uiANrz7tNIizyVW2ULwBz43bQhOETd-bZNozcMtHCu0QfOahbzi5jsColqBrxHWA-q1dNtLKYg8E5VUsvVP4n0BZaCUnyAGOQzK0rw1vmOGaTVTX3br7kcg_KSSNfuZP5aXxlzJDE_wCQP2bASvbmotCe3YHe6pOw0wc2B1iHGwFisFyNP_gR0pzQ746zNGcwyhabffGoTJLmtJWo680y6qKAsrKmteh0H2E6bIXmGMK8wxUwtblg7dUWiCVuFXS1NnuCHcu923h8K8SdI7aR3isoazlOrBFxNmgEb_vHT0kcifaJ7haCaF5d6uf9Hsw3Kukr0-5BuSfn5tA6nZEi_lsm_NJZmg2arMkVp9tbj4FWc5o4CLWy2csCTZu1gX-MB_kaIOVuJTH-lNagKmnMD-kedF23WamQKVd0MRLNsCg2r8tuhhtrNeMcmCRkLj4jxvMUPcF6xBqnpS5qEoZe6DhZRuPzuNB2NKJ58PbvpKoCWFOv-HQnPhvt_hjZ8uSUWDNdSfkZHqBGYrCG4LNP7H4IEOsmPc1HVTz0kOOr8mBxc9WRzsSIxWirPj6xgKY-CZ-OYl9B3V9GpVlh97vohFqpAXk1FMu6fJsTefPJkz8LVH7j2vSuRQtJYHuP1NOhCNsjZ0JA3je8BVsXxaKnJFTlwtrQKSerk0"
       }
     },
     {
@@ -108,8 +109,8 @@
         "gx:Issuer"
       ],
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-      "issuanceDate": "2026-04-07T07:55:04Z",
-      "validFrom": "2026-04-07T07:55:04Z",
+      "issuanceDate": "2026-04-07T08:07:16Z",
+      "validFrom": "2026-04-07T08:07:16Z",
       "credentialSubject": {
         "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#issuer",
         "type": "gx:Issuer",
@@ -117,10 +118,10 @@
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2026-04-07T07:55:04Z",
+        "created": "2026-04-07T08:07:16Z",
         "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..LNN7JqOfOLOER3M4Q-hQjy2vhS01diTs9unza6tk3LsYDvv85bUXXBZb4sg-FiI-6Dr76sbdX0b1lh09sT-2eB3lcRjc_7mR4_cIHRfUOAJSXbXT4eaPS7_cvfAhSHm4jeyRs2uCA9hhrp717AbMwcKS1GVWAU7ZDVugPheQhV3cDtMwTLyzvTGPrOZZ1OR5929uaki_RIISHUCsS7wnAA79XbyE-S1mhqofrCQug4wLlYfDqduxkQp3PLWhfz8NQaVgu4N8TVVa4M5L8R5eOgdzrDnyAPjV3_-OzTYoCATTFpKU3OuSBpwCWmjQqsrNJNIxDXdPYa_GG4IR0S_yRdvXmDmKHP1w8T8htXZcL2DGaMivWd7noGgJy_i7Q8Jd_qNiplYiJrPqB7sFloxRdJDvkb1LBo1_VsWl07hSc3Q-o-Gdm-yC9m_7pkL2czRbfsV53sBWAY6idmfiJsMcsTy5DaP-4d7elVWPzEdDKxgldehnmss-QMfVq_6NNLQ4lFAFSFEGLiUJU1hbVd4nKLYAEcLRO666kny7Lti_8hvFl1iASs7LP4nt9HHp7AZz_gSVarVRI4WwD6GW60neYv_3p4Ni8ZHBGmZdhi7wP0LxNFBKZzRyTsvoNhw4a1yC0IVTUXesRgKPE7fxpHeVeebttjwvfALXgLi5vZzkteg"
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..o83ny8b6zgFYNA8vy4nmhnUDWSNZwVvnwH9pdAyNcg8V1mh4YDJTYw-tmAQhncKsKjc0nZrWU68hO-kGiEJ7BrHef0U41lGNSAxjmE3UTq7i_SnvVtMeANdfNAPV2qYmO_RqOeazggZ6AdFbITDqVsY-iFBuYyyorSwwr2DFZhnQ1tmgw5ox7LAOm9nKvmFCYiFhzmvF3P1eqLJKZE0r-VjhhxhcYsZ5VOfvU3srDL43IrIuP1OOARt_Y4GhO391LTuznk_D2EpBoZYGPOvQSDditIUeW2n3bmq-N8H7wirl2dbi3oAgTaUd0CLurXGiKwIIP3F9DfLyHKmtueEkwaAAvrZ2gH8n36lbVplZa9PbfwR6gHecrm_bjtGwRKrzaFAUaNavcY6x8RdX49L4t_FoNpsxvt_bIl42HhymYh3_xqibXAdZIyuS4OY1P74EuOh57J-b6BrK-xVcEw4HFtO0UCWKCJJZmBr1ldZDQUXlp3xHq0JqO0z83izu9xkK0_oggtgTBG2yZIrP7LfjWat3iYqy9xxF-9iW__qVRAxkF8z0L5_5ojo6u7XHR74EWpdVDDkK05ZFNiTmSWTkD9xYBQ2_JVm-D-YpFLqONXdSYFdH6egDGsTVueVjsw5DOA6oYEjXtaToTNx2wGjvrgvFRJJtRXpyytioXZbwSTo"
       }
     }
   ]
