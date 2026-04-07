@@ -13,7 +13,7 @@
     "gx:LegalPerson"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "validFrom": "2026-04-07T08:11:17Z",
+  "validFrom": "2026-04-07T08:16:59Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#participant-subject",
     "type": "gx:LegalPerson",
@@ -30,9 +30,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-04-07T08:11:17Z",
+    "created": "2026-04-07T08:16:59Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..l-ux54RTKjcBxJ-3N8SASNot53W3nmRPYpiLSg_wxNx5m1Kv3XcDJMoyqtEgBBpN8OuQIfMIzIuWBk3zzFBXns9TzDKUitGL0mwb-CZ_579QAium5TewDVpn5Ja17oLTXxO5QGGrD6DdsNJSk8MrrmrjrNku4LJ9n4h67xlKieKMRsyM8Blbvh3RwsAb6AepzbfYH7Ltvnh4E7RUfS-rjZGsNf7pTV20rvC2Gc3BMq1aNS6DiIybSBwmvo4d4fQpBczsFw9i0StPYlrX-NtH00Elygf3CHL4F3IdSDWeZuuz4ON2laDV-ii0-lpMywvxo3wcyNntD9_DvKImPhpX7k6oGt0xkRNfZl3DLJJAfeJ6uT1AjExBM8b0wx4KctrIfrOchaBfbhKbWjlfg62OSLeXusFSgnKuiBZQtRurYctY1jLfO_oWnRzVOXnUJcjz6ObMtn7eB6MyTQTRO5A7NMKlW3TxLhMIzp1WTD3vJ4Nl2RmIqsvWhdsNTxvCfXDA4ctEbF807GmKHF6ytlRTvN0HuATldJbzEmRS4D2aqcnJAnx4f-00LmVYtKkbPtY6gFFqyL5wQINo77um5xdGmww5cvX_kZq1V_rxebfCmN0zZNwJmxzqn1aO-jHYb3gyTd-OyoxklhN-vRmsqFoWY8bidMEs-z20i_S684as4ss"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..F_jDC49ZytWLDiFbrcRzJMOc0uiXOrDpwmD_eOHr2eB6P2WBka_c0ka2IM2qXuJ64D7kHoBSGIIDjKmrQBkV5HmdYfi4uyflX7te5cAhpmbTQkR-gdggpQQWJvihe3PA_SP9QYhUW5NqRcSSkiKt5qghW-1iw71b8HzCXysmlzdewtA3P6Ixs8aLDDbt7Q7tpshbUj5ze6Uj1xuchDCXlJsPkfdHVIvBlwhRQoVpUpouVc2S-erGjlixFU36z61BYcZLBjjouEuqN-8uvHZTPYyOpGANnZM5w-Jnvtl7mL-3eTFW5NTHsXx74jMaPhq9nU47Yynmah5vHPWLmFlI5h5hqOY0i9DsYdzvt2QnKWD6oSU1onmY1bnVAwTCY012mLTnJQ1wD0eAZNNiv4y7nBoUoQGrbPOUgSUwpw1SZq_4eUzMrGd3WBEW43TB9mQK4FJjwliYt9CKU0LTOa3v9FOXkXvq9-9WSjr0yYrnDyylbynCr6HBj6RekGzNkvMU25bdD9vn-7X6biil2yhFKFtmc1s7vWnvivp33E1aGXroIP7af96_zqNzFrl5yzLcJK8qpP36S_aaqtyu6lXqbdG7xYym4r8cc7cuu1psrYqlB1GopNn57or_tezmYHTAd6GDbzCEUnJ3w7nBv4e3ntoG59i03okOiHvQi2AVgdo"
   }
 }
