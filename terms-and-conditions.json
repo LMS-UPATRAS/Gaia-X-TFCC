@@ -3,14 +3,14 @@
     "https://www.w3.org/ns/credentials/v2",
     "https://registry.lab.gaia-x.eu/v2/context/2411"
   ],
-  "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#terms-and-conditions",
+  "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#terms-and-conditions-vc",
   "type": [
     "VerifiableCredential",
     "gx:Issuer"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-04-07T08:17:00Z",
-  "validFrom": "2026-04-07T08:17:00Z",
+  "issuanceDate": "2026-04-07T10:39:14Z",
+  "validFrom": "2026-04-07T10:39:14Z",
   "credentialSubject": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#issuer",
     "type": "gx:Issuer",
@@ -18,9 +18,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-04-07T08:17:00Z",
+    "created": "2026-04-07T10:39:14Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..uqMXcub483ACI_4NXjmuYLjwktzKaIIoQeAYSAGUB5cUKNJIYiy_oWetI_MpqnFBKmXgKIsFb4em1X_RxtCKUsEVa44ueZM8odOxNNAwrMr51jL0ih56Dge5Rz2GU-Nkb98-8AZbsT1A9isVWd2xOWNafAnsOhrUbNFT6qcVnjt3E36Ymh0J31wUHldDjEl-L3Pi1R4zcnJsDLu-80tBQZXg-A9WdOmCxtv1eaTvnqZptR0fI6byXUKIjEBsntle6TdGy3xMesBAMZddQw372VY0ddvuv4pFeH355qSB4P_cuw8gEDrh1bh7yFWL6RUofGR6ljiBA5HEExDLX9ClwaUsR9YibE7I0eprrcqXfuRt_TvEGR70e-4cbQaE1mypYLMH4mkQdHLhAAb1UUV3RnmgDMbw_Gx4Y1Y0G3Ti-Z71TjQlDQKwdEVtSD-RdWFpMSdQxls_gbw5SC128_Yrab5wx4l8WeYufBRl3RobqPjZI1fWCi9tcKUO75KGewdvfUgrD3bznLO-2VxqCe6X48vQKcsQMqnUI-Rukj4xHReLiZnLxGVlyhEWXMRDiNeZPqMCL6_RKeSdLsnP5hkdBX7fS7rDGflyJ_TgWdsyDyt-lgUUnM9Zk7qPWab9VPAau7SZ5g5gTo44-AyStggIL-fsz_LEPsctVC_Vz8qEBR8"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..sLdVSRFDpQ7b4dznVsOYAhZTWRJrYbwm5hbpo67gX3aNsV3eYBPD2tv4I4ASERYUHe8m7ppvRbfXtHAMYduPd8rH5-rd4ybhBGuWsiEbQH6WJqdKg9-sny9dRj-9e2Z0UzmsmpdT0_yyXBGJMOqhuUMuzb0d6IUTPkvCLVd3b84Axmmi3_dPqsJrdV_aMTsUHy3oaP3BT9-bKCl5vwaCi8yDdr06S1Nfszzez18epaTxc8OP6zW4FtR2CWRwNyfq8Lq0AUT4Mcq1lYihWmTnpSAeSiLkeOn_K198Dgw5PbbZ9GvVEb9-8O6AgwM3Rwh_T-hVG4JiQJCm7vSSJh774QCi7XdsIOVKDvxURkCnKNFMHOphXw4PHb9Yc_hsYZyiqhtGG3b2dXJXvNkj-kABnVw3mi1h-q2HoxegPS9Ehp0EM6B51bs02WB-4c5oWeWfFQQXaD95leqXlIPHmA9ITOW6dquc213d2zIKP5c4h3Ez8WIJ61qQ2alyjmYdKxjoMZ0PHGZeQzj_9Caf7ibheUCpZ5ARbu20lMZccy4JJezsz6JouGuhvwrr_3v4UeOZysGzrFSwBBHZREFcO8HKEi3iritsmJoNvKF8CRoFuAq_3GnkPQyRXDYc9vRCvrrRaLDfiAQOfJEYTH6gTpO2a00Fo5zlRc3973v8u8NhAZ8"
   }
 }
