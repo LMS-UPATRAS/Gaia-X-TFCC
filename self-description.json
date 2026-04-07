@@ -24,8 +24,8 @@
         "gx:LegalPerson"
       ],
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-      "issuanceDate": "2026-04-07T07:06:45Z",
-      "validFrom": "2026-04-07T07:06:45Z",
+      "issuanceDate": "2026-04-07T07:17:13Z",
+      "validFrom": "2026-04-07T07:17:13Z",
       "credentialSubject": {
         "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#participant",
         "type": "gx:LegalPerson",
@@ -40,14 +40,14 @@
           "gx:countrySubdivisionCode": "GR-G",
           "gx:streetAddress": "Main Street 1",
           "gx:postalCode": "26221",
-          "gx:locality": "Brussels"
+          "gx:locality": "Patras"
         },
         "gx:legalAddress": {
           "type": "gx:Address",
           "gx:countrySubdivisionCode": "GR-G",
           "gx:streetAddress": "Main Street 1",
           "gx:postalCode": "26221",
-          "gx:locality": "Brussels"
+          "gx:locality": "Patras"
         }
       }
     },
@@ -62,8 +62,8 @@
         "gx:Issuer"
       ],
       "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-      "issuanceDate": "2026-04-07T07:06:45Z",
-      "validFrom": "2026-04-07T07:06:45Z",
+      "issuanceDate": "2026-04-07T07:17:13Z",
+      "validFrom": "2026-04-07T07:17:13Z",
       "credentialSubject": {
         "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#issuer",
         "type": "gx:Issuer",
@@ -77,7 +77,7 @@
       "holderId": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
       "verifiableCredentialContainer": {
         "format": "VC1_0_JWT",
-        "rawVc": "eyJraWQiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtTE1TI2tleS0xIiwidHlwIjoiSldUIiwiYWxnIjoiUFMyNTYifQ.eyJpc3MiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtTE1TIiwiYXVkIjoiZGlkOndlYjpsbXMtdXBhdHJhcy5naXRodWIuaW86R2FpYS1YLVRGQ0MiLCJzdWIiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtVEZDQyIsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy9zZWN1cml0eS9zdWl0ZXMvandzLTIwMjAvdjEiLCJodHRwczovL3d3dy53My5vcmcvbnMvZGlkL3YxIl0sImlkIjoiZGlkOndlYjpsbXMtdXBhdHJhcy5naXRodWIuaW86R2FpYS1YLVRGQ0MjbWVtYmVyc2hpcC1jcmVkZW50aWFsIiwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIk1lbWJlcnNoaXBDcmVkZW50aWFsIl0sImlzc3VlciI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMiLCJpc3N1YW5jZURhdGUiOiIyMDI2LTA0LTA3VDA3OjA2OjQ1WiIsImV4cGlyYXRpb25EYXRlIjoiMjAyNy0wNC0wN1QwNzowNjo1MVoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1URkNDI21lbWJlcnNoaXAiLCJtZW1iZXJPZiI6ImdhaWEteC1kYXRhc3BhY2UiLCJtZW1iZXJzaGlwIjp7Im1lbWJlcnNoaXBUeXBlIjoiRnVsbE1lbWJlciIsInNpbmNlIjoiMjAyMy0wMS0wMVQwMDowMDowMFoifSwicm9sZXMiOlsicHJvdmlkZXIiXX19LCJpYXQiOjE3NzU1NDU2MTF9.OamO-oWluN5jN2h2tWdza1QLVM1xTvgnu1Ey6PeJP18YFzZXDPEA880U29TGSVVctPtgu_S_acZl-qAX-2hIrI5zPIamMT3Z62c_f4LRlJBUbtXd14zBzXoUHrGYCkSpOZNoLG4BAMqN29wLnK_UPx54Qnzx1w96wLD04eH6-L5rDu6wZ572qc27FtrzrDfBi3JUR8SuGz_9bzaIA_YmwsiA0OHJVmDirRYO7RnG1pgH_UVLZLtOVbrRdh4egifOnS4sr3uekH8nQ2g2Iu_v--CKreUlEnKkj5aTs0iPdaPNcW2fPzXHCvi3E63VuIrmWE74-fIojVOs4-raujrq3E3Vr_fs1q2kmSyjahrDKXdZpYS8GdOPZEH82R0swJzs1XLbgWVRsFsN1bX5dO7kiQZqG4TN2GWHcKF9qQo2HlWjApBVOPj-uZl0fDW59Py5LQa85WPXh-e1YwzAa8kR302eQFoCIMfymKprwa1msE0Z6_e46PUU8DLffaOPZl4Gyr-nQKXuU9rO5AFB5q-UR8ZpQqPxRpjvKXLzkyJaReCFLmRcqnlIWRSCPo7CqTMo3KKjC2XSvyMEdVdfkSrk1g78ihaEmaV_Bd1zlImSfoQf1BY8TdX9ueAfC805Q0s7YOVOSkLqQO5YTcmGf-Dn6cyUZLncGwPCBdhwVF3-oK0",
+        "rawVc": "eyJraWQiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtTE1TI2tleS0xIiwidHlwIjoiSldUIiwiYWxnIjoiUFMyNTYifQ.eyJpc3MiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtTE1TIiwiYXVkIjoiZGlkOndlYjpsbXMtdXBhdHJhcy5naXRodWIuaW86R2FpYS1YLVRGQ0MiLCJzdWIiOiJkaWQ6d2ViOmxtcy11cGF0cmFzLmdpdGh1Yi5pbzpHYWlhLVgtVEZDQyIsInZjIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy9zZWN1cml0eS9zdWl0ZXMvandzLTIwMjAvdjEiLCJodHRwczovL3d3dy53My5vcmcvbnMvZGlkL3YxIl0sImlkIjoiZGlkOndlYjpsbXMtdXBhdHJhcy5naXRodWIuaW86R2FpYS1YLVRGQ0MjbWVtYmVyc2hpcC1jcmVkZW50aWFsIiwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIk1lbWJlcnNoaXBDcmVkZW50aWFsIl0sImlzc3VlciI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMiLCJpc3N1YW5jZURhdGUiOiIyMDI2LTA0LTA3VDA3OjE3OjEzWiIsImV4cGlyYXRpb25EYXRlIjoiMjAyNy0wNC0wN1QwNzoxNzoyOFoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1URkNDI21lbWJlcnNoaXAiLCJtZW1iZXJPZiI6ImdhaWEteC1kYXRhc3BhY2UiLCJtZW1iZXJzaGlwIjp7Im1lbWJlcnNoaXBUeXBlIjoiRnVsbE1lbWJlciIsInNpbmNlIjoiMjAyMy0wMS0wMVQwMDowMDowMFoifSwicm9sZXMiOlsicHJvdmlkZXIiXX19LCJpYXQiOjE3NzU1NDYyNDh9.h0a35iSZAlJtOlK73HHNz5s4KrjWY7ONsWONs3Eas1MkSU2m2Qao4zD4sUuDenv1Vz0K_u0BMHEKW5HfnEY5HlQZza-vqNnkskK5cZ1GEMIenw6W2KSWdwb5WmifwNAOGVmVpIpHzXiwPVcEZpwMtLqT0clHNLJOYhndTjgsiA9jWVhSw5AND7QHX653u0oLW6RxTZiKPWKlgQmTboz6qztRLlUv3QNCs1-CcjYqmKteIn2NwNoUw9orHswbgRjIVVkWgWjpKxYQJ4pHSjF_BEDrMUuS75kfZ4OaVZSiFZ7CmuPDZCx1ty-2q2dDwmjDYlg1cu4htHojHSwb0H2YLo1IwD1WUJJW8mtv2pH1sGeUEJHUpC0iAzFcg1u4MGrnnNu3UBvz91AJfJdgIR5lQ9BRTr9PLHiRaIDTTBeRI5AFUgAKZNDLpzNB3KcdaWgghd84al0hR4pjHm_q-ZQjXv0WTer6VKhNtfV9X2rjnT9TY1I-Mb3WpoHL4rmZivrq6LTa2-Qq21uYIqelkXG8xISe9P5iGBnJ_D9_FAleO4jIHBCxa7QBz8bpmnFsmLyXBIFjbtpX2_4VBpFTn4I1eV3emXP5VVTg-pm__-UhE1cK0fnbYtaDO9W3zAqevaZnlgcjPT7dsMi1dtRb-wLrteahLuzbdl1_sR9jItB7be8",
         "credential": {
           "@context": [
             "https://www.w3.org/2018/credentials/v1"
@@ -88,7 +88,7 @@
             "MembershipCredential"
           ],
           "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-          "issuanceDate": "2026-04-07T07:06:45Z",
+          "issuanceDate": "2026-04-07T07:17:13Z",
           "credentialSubject": {
             "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC",
             "membership": {
