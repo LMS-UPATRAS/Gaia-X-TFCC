@@ -9,8 +9,8 @@
     "gx:Issuer"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "issuanceDate": "2026-04-08T14:27:58Z",
-  "validFrom": "2026-04-08T14:27:58Z",
+  "issuanceDate": "2026-04-17T09:08:58Z",
+  "validFrom": "2026-04-17T09:08:58Z",
   "credentialStatus": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#status-list",
     "type": "BitstringStatusList2023"
@@ -22,9 +22,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-04-08T14:27:58Z",
+    "created": "2026-04-17T09:08:58Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..aVvaQVSchpWNcr6kTqfSmb0852QXtY_Ex8UXwduYgWRSD96_6MmtgxZg3FbOD6NU5wS7QvDN1HmEyH-0GpjutLVR3i_UgzvVAC0yPWwuKHTzzRd4PhTyAEtDARjvl4fdlFH_g68zV1z6t-ydt8PFm9CQ86fibtzHETQEE04xoTLoaqcuEuDmE_3zV1EVnBsVuOEhyGeXaT547SVtaRGEcl1v14CtmY4j4yvARiN3ct8DDxA7OKJMvloGmPEvWImrrYscoEoanNgRx0xAZ5_7I24NJKJ4C96GGaYoFlfD0fTA6-FPv2CctEeYKA6t_9fOhuxCxSTN15SFSfUg-lXaU8DfOl5Fb_DRrihK8lPWXCocM_RtbpFxrHu-GgB24GxWBkGVPJSlDuBRfAsoS_hrX4t0MFa0NWv7dF020RH9viGQK_d00NaSRhOO0ykLTPHETJ-1-vLIbA6rgcVDJcxkECEXWaIj8d0AuxDOs36us1sZlIj_zVbIuU2ZJ53GoHhvcT75Psy0Ry3bL3FVax8SGAPRUtQT-Wua0nCyNb7ayQROkf5nP-iVJz6TD4V1UuszGTxlc2uvXS4Dv7NzP_dYG0itiOzUV8WF5OrtgIoAlP7eTIGCp6YdsZGsginyeHVIIlPPPFORR4cg46sw5VtQJE4zfo5yEHQ1kYzvXDe2wL8"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..q4aS4fR3WppUO_LkSPK6iNjKkSckacykPRM8TmgOwt63mC5LdQ0LF017-CBwmKptuszr7dD8BFRB-GP_tGd1ROa7mOxvcPYf1cRZ7xumhx7qEtnquZZeV4GCSLTQcrjumS-9mteGIXujLj0J7Zi2Jng8KUpbz7TQsxthVetNqAconl_edks4_GCChT_28nTMWhcuo2OUTmYvspxdbE5emHmlKwaxDL56EJPFxWgS70ytIFRKqJZYq_46oz7f1ztTuct8lLHbLSLIH4YBMZCb20aJtTrUW75K1-V9dNQnWOwrIDLtybY9k8Lx3ZemiRP7nFDJItW3crtu05p15psptCrKVsbRxJuWexDYfRW-fsUYXesNcSJHuGDgMvV44naMxejTq2Sw035WAhw2glWrnD4EasyhW_myQADipwfPNpNAng7_xIJePDnjG9dFBCZJj7jm-dxVa6baNW-_20o4Xnndm6N4t98CjMg1rTjYTdlekySAcc23CdCyMYNaUik4cTZa_x_3LL8jDOBHuCW8sCJotfBoRCHrSK5roa2hwGQYIxWtOonp7Fed4dkMvvuwDgijTcsAuTZTzGzWCKLWPGmPEyHF-vj7dVEb6FpqgAHh6PqKA2IrVZIm7xDj7M5xpSp_jSYawmMO9R1BYP8Rl1g3SMZPh35M2c1qA-MvzyE"
   }
 }
