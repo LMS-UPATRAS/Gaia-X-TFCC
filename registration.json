@@ -13,7 +13,7 @@
     "gx:VatID"
   ],
   "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
-  "validFrom": "2026-04-20T11:21:19Z",
+  "validFrom": "2026-05-18T12:44:10Z",
   "credentialStatus": {
     "id": "did:web:lms-upatras.github.io:Gaia-X-TFCC#status-list",
     "type": "BitstringStatusList2023"
@@ -26,9 +26,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-04-20T11:21:19Z",
+    "created": "2026-05-18T12:44:10Z",
     "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..UAksTupORLyo2Hv9avuZQvJsItepy3YMzohYu253qUtb46KYejP8aufqkNsjgXSD3-7uBOuhL84tLjwjBRi7DolDF8a52U2-TYx0nJgrLS0aBHydq2CDk23VcxSpKKr1vx6cs-prvOpBZ2DVoUVRAoxMqGuUh4wMudezKh8ZvtO8t3lPE5WjeFkUlYGy7cihkL6vyYfN3Kjba-7K2PGg1IKypAxEND4RTe_7eO2HSSvhdYbzqoniKYXAYST9H92F0J7x01Jn2ZfBysecN6UdZ9a-ZG3-Fg_moxm6vWNTYcTsy9a727PHGAlC_NQxBMOmI4Rwya6ZWWr2t41H-4NwhZKKf6wItGB-QOKcTnFAEvfr_MScvJM_Q4JKO63RK8mSoeNYiZPC2O9C1fT0120h8DzrssGSZlu496HQkC0-XVWpPSGOGx3rZR_G1mFhbSAbtji-XdFnLXPAwlAbS23Dgcq1hAOY81SRBmJkY6l9J5rCASxNURGABuh38eLW9Vpp8y5gFjcq90sLzmqa2LMeEKUGXS7rWQ72D8ncGMNTueISYFWrvdO_431QSUNnxIg1toCGAbMHNswKjuHuA-EWMOYnCjS3RqNkD-h5XAwriy6yNEaVtpuoD9hONqHK5IVHGAvrChEpLLNif_UUWBBe7kuzrj_myf7KrfSpWAevCiM"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..xYQks3iXcReAhglzgfoY_lx_rSI0ThilW_8B2geeoS-HTIr5pfH9uG_jAHmPSSb_gQZRlSpzCi-KRRZLDEnc8Q5-DkfQv8oMvWOGoUWAJhVAJvki4qpBWBuU1E42nv9SGGw1JdmaoI1QGiAdGR8vkSQW4g1NofRoa7tKDUF_ks9EvX6DqmgxQtZrBCk4xwGcdSbVvCs6DrY6yEaexxP9eKiuph-4i9SXT5SQpFFDcD-MCsXg8aVBZCnYsd9wVF6V-ciWAyGlzyIvzplTvwbGIJnEsg25VWlP44NRlB_8pzcxgfNo9bw6UskGkLuu5EkY2c9nzrlW45QHwvilEsiI0tgWy5Wh8rLXL7Gc8-wg94ytGBP6OvBSKB0kGTVnAq2CveBuXLUe8eRdFzJo5URy1HiGtqFqnT_7rtPQOvO0gT_BDdB1nt8wmeCli3KJ7nHNFiahRRLeM7wY0jpvRTSz1ovroXHwW7qnxPF1YcuLz6KsKzy_wtE5vBsGSGpW0AwAgVGJLa813d8zmJNTNHwK7KiXB3qAf2MkrSjvh7M2H0gdCxGCZ_W0LgARzuyGPuzQAbERzRrKBFUTAojVZLHC8KrGTp0MFiVA1S61pMs-xB8IikVz_VU9JvnNMJc3A-7mntAFCc-K6RpcCQy_sIDOZWYnKXHONcPRdXLyzspy3QQ"
   }
 }
